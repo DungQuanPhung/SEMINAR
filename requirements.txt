@@ -1,0 +1,8 @@
+flask
+transformers
+torch
+tqdm
+datasets
+peft
+bitsandbytes
+jsonlines

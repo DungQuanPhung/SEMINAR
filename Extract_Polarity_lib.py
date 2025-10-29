@@ -7,7 +7,8 @@ def run_detect_polarity(clauses: List[Dict[str, Any]], polarity_classifier: Any)
    
     """
     results = []
-    # tqdm sẽ không hiển thị đẹp trong Streamlit, nhưng ta có thể để đó cho logic
+    
+    # Bỏ tqdm vì Streamlit có st.spinner
     for item in clauses: 
         clause = str(item.get("clause", "")).strip()
         if clause == "":
@@ -20,11 +21,11 @@ def run_detect_polarity(clauses: List[Dict[str, Any]], polarity_classifier: Any)
             res = polarity_classifier(clause)
             if isinstance(res, list) and isinstance(res[0], list):
                 res = res[0]
-            top = max(res, key=lambda x: x["score"]) #
-            item["polarity"] = top["label"].capitalize() #
+            top = max(res, key=lambda x: x["score"]) 
+            item["polarity"] = top["label"].capitalize() 
             item["polarity_score"] = round(top["score"], 4)
         except Exception as e:
-            print(f" Lỗi khi xử lý polarity: '{clause}': {e}") # Giữ print để debug
+            print(f" Lỗi khi xử lý polarity: '{clause}': {e}") 
             item["polarity"] = "Neutral"
             item["polarity_score"] = 0.0
 

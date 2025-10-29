@@ -1,0 +1,1237 @@
+﻿entity_id,review_id,clause,sentence_original,term,opinion,category,top3_sim,score_table,polarity,polarity_scores
+3000584,9672019_R1,it's easy to get to the castle,it's near the subway station. it's easy to get to the castle.,castle,easy,Amenity,"[('Facility', 0.2345069795846939), ('Amenity', 0.17812377214431763), ('Experience', 0.13333900272846222)]","     category     score
+0     Amenity  0.366088
+1  Experience  0.340760
+2    Facility  0.293152",Positive,"{'Positive': 0.9592183232307434, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R2,loves the big screen tv,"the owner is enthusiastic, sweet, fully furnished, loves the big screen tv.",big screen tv,loves,Amenity,"[('Facility', 0.14196377992630005), ('Amenity', 0.10858466476202011), ('Experience', 0.10065753012895584)]","     category     score
+0     Amenity  0.392775
+1  Experience  0.356467
+2    Facility  0.250758",Positive,"{'Positive': 0.9910736680030823, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R4,the location of the apartment is quite nice,the location of the apartment is quite nice and the living space is comfortable.,location,nice,Amenity,"[('Facility', 0.43040037155151367), ('Amenity', 0.2287609577178955), ('Experience', 0.17044499516487122)]","     category     score
+0     Amenity  0.542185
+1  Experience  0.297183
+2    Facility  0.160633",Positive,"{'Positive': 0.9921154379844666, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R4,the living space is comfortable,the location of the apartment is quite nice and the living space is comfortable.,living space,comfortable,Amenity,"[('Facility', 0.3503844439983368), ('Experience', 0.3153264820575714), ('Amenity', 0.19862762093544006)]","     category     score
+0     Amenity  0.422858
+1  Experience  0.332394
+2    Facility  0.244748",Positive,"{'Positive': 0.9945584535598755, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R8,like the other rooms here,"like the other rooms here, it's a bit old, but it's very well used.",rooms,like,Amenity,"[('Facility', 0.5849289894104004), ('Experience', 0.3242291212081909), ('Amenity', 0.27206116914749146)]","     category     score
+0     Amenity  0.396091
+1  Experience  0.370749
+2    Facility  0.233160",Positive,"{'Positive': 0.650412380695343, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R13,the room has an incredible view over hcmc,"the room has an incredible view over hcmc and it is located 5 mins away from landmark 81, which is must see.",room,incredible,Amenity,"[('Facility', 0.5124017000198364), ('Experience', 0.29727903008461), ('Amenity', 0.17267054319381714)]","     category     score
+0     Amenity  0.393575
+1  Experience  0.382118
+2    Facility  0.224307",Positive,"{'Positive': 0.9599579572677612, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R15,it is quite dated and extremely uncomfortable to sleep on,"the sofa, which was our second bed, needs to be replaced it is quite dated and extremely uncomfortable to sleep on.",room,"dated, uncomfortable",Amenity,"[('Facility', 0.4424833059310913), ('Experience', 0.31287524104118347), ('Amenity', 0.17571362853050232)]","     category     score
+0     Amenity  0.344304
+1  Experience  0.342633
+2    Facility  0.313063",Negative,"{'Negative': 0.9611597061157227, 'Positive': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R17,and share his knowledge,"we could contact diny at any time, and he was always ready to help and share his knowledge whether it was about local attractions, good restaurants and street food spots, or transportation options.",,,Amenity,"[('Loyalty', 0.04728137329220772), ('Facility', 0.011387689039111137), ('Amenity', -0.002413082169368863)]","   category     score
+0   Amenity  0.448570
+1  Facility  0.294717
+2   Loyalty  0.256714",Positive,"{'Positive': 0.8514629006385803, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R2,the owner is enthusiastic,"the owner is enthusiastic, sweet, fully furnished, loves the big screen tv.",owner,enthusiastic,Branding,"[('Loyalty', 0.1934298574924469), ('Branding', 0.19047251343727112), ('Amenity', 0.12398545444011688)]","   category     score
+0  Branding  0.613645
+1   Amenity  0.232207
+2   Loyalty  0.154147",Positive,"{'Positive': 0.9685475826263428, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R4,the house is fully equipped.,the house is fully equipped.,house,fully equipped,Branding,"[('Facility', 0.34071800112724304), ('Amenity', 0.1938105672597885), ('Branding', 0.102037712931633)]","   category     score
+0  Branding  0.733283
+1   Amenity  0.164015
+2  Facility  0.102702",Positive,"{'Positive': 0.917397141456604, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R4,a clothes dryer,"there's a washing machine, a clothes dryer, a hair dryer, a sewing machine.",clothes dryer,,Branding,"[('Facility', 0.1526842713356018), ('Branding', 0.06416107714176178), ('Amenity', 0.05897972732782364)]","   category     score
+0  Branding  0.657166
+1   Amenity  0.237597
+2  Facility  0.105237",Neutral,"{'Neutral': 0.8905324339866638, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R4,a hair dryer,"there's a washing machine, a clothes dryer, a hair dryer, a sewing machine.",a hair dryer,,Branding,"[('Facility', 0.11846162378787994), ('Branding', 0.04497279226779938), ('Loyalty', 0.02549600973725319)]","   category     score
+0  Branding  0.626793
+1   Loyalty  0.243583
+2  Facility  0.129625",Neutral,"{'Neutral': 0.8446574211120605, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R8,"you're an enthusiastic, sweet owner.","you're an enthusiastic, sweet owner.",owner,"enthusiastic, sweet",Branding,"[('Loyalty', 0.20393387973308563), ('Branding', 0.18075190484523773), ('Amenity', 0.12206274271011353)]","   category     score
+0  Branding  0.663296
+1   Amenity  0.190539
+2   Loyalty  0.146165",Positive,"{'Positive': 0.8569589257240295, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R10,the owner is very considerate.,the owner is very considerate.,owner,very considerate,Branding,"[('Branding', 0.16609114408493042), ('Loyalty', 0.15065720677375793), ('Amenity', 0.11478628218173981)]","   category     score
+0  Branding  0.705940
+1   Loyalty  0.151293
+2   Amenity  0.142768",Positive,"{'Positive': 0.512194037437439, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R12,with a nice view,"clean, comfortable, with a nice view.",,nice,Branding,"[('Facility', 0.0791410431265831), ('Branding', 0.05044931918382645), ('Experience', 0.046932123601436615)]","     category     score
+0    Branding  0.651254
+1    Facility  0.180120
+2  Experience  0.168626",Positive,"{'Positive': 0.9731287360191345, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R13,"it is located 5 mins away from landmark 81, which is must see","the room has an incredible view over hcmc and it is located 5 mins away from landmark 81, which is must see.",landmark 81,must see,Branding,"[('Facility', 0.2608169913291931), ('Amenity', 0.1868605762720108), ('Branding', 0.14465570449829102)]","   category     score
+0  Branding  0.752107
+1   Amenity  0.133038
+2  Facility  0.114854",Positive,"{'Positive': 0.9125046730041504, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R16,with a beautiful view,nice place with a beautiful view and equipped with all what you need.,,beautiful,Branding,"[('Facility', 0.0872773826122284), ('Branding', 0.07275804877281189), ('Amenity', 0.0630144327878952)]","   category     score
+0  Branding  0.651815
+1  Facility  0.176587
+2   Amenity  0.171598",Positive,"{'Positive': 0.9620502591133118, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R1,view over the city center,view over the city center and the chilling new subway line.,view,,Experience,"[('Facility', 0.13550257682800293), ('Amenity', 0.1027056872844696), ('Experience', 0.08545902371406555)]","     category     score
+0  Experience  0.371067
+1    Facility  0.320883
+2     Amenity  0.308051",Positive,"{'Positive': 0.886135995388031, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R6,that's very interesting.,that's very interesting.,,very interesting,Experience,"[('Facility', -0.013265673071146011), ('Amenity', -0.01830216497182846), ('Experience', -0.054826769977808)]","     category     score
+0  Experience  0.401330
+1     Amenity  0.368872
+2    Facility  0.229797",Positive,"{'Positive': 0.9057629704475403, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R13,you have to enjoy the pool on the roof as well.,you have to enjoy the pool on the roof as well.,pool on the roof,enjoy,Experience,"[('Facility', 0.3166593313217163), ('Amenity', 0.2825769782066345), ('Experience', 0.15422824025154114)]","     category     score
+0  Experience  0.460790
+1     Amenity  0.325804
+2    Facility  0.213407",Positive,"{'Positive': 0.5057857632637024, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R14,i can definitely recommend it!.,i can definitely recommend it!.,,definitely recommend it,Experience,"[('Facility', 0.08093027025461197), ('Loyalty', 0.025535976514220238), ('Experience', 0.024612974375486374)]","     category     score
+0  Experience  0.439010
+1     Loyalty  0.312721
+2    Facility  0.248269",Positive,"{'Positive': 0.9869009852409363, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R15,perfect place to stay,perfect place to stay with your family,place,perfect,Experience,"[('Facility', 0.469413161277771), ('Experience', 0.3100210726261139), ('Amenity', 0.26958638429641724)]","     category     score
+0  Experience  0.416858
+1    Facility  0.316820
+2     Amenity  0.266322",Positive,"{'Positive': 0.9969075322151184, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R15,really good place to stay,really good place to stay during your visit to hcmc.,place,good,Experience,"[('Facility', 0.4400408864021301), ('Experience', 0.2630746364593506), ('Amenity', 0.254072904586792)]","     category     score
+0  Experience  0.496324
+1    Facility  0.282574
+2     Amenity  0.221103",Positive,"{'Positive': 0.9963018894195557, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R16,the rooftop pool is a nice extra.,the rooftop pool is a nice extra.,rooftop pool,nice,Experience,"[('Facility', 0.35867366194725037), ('Amenity', 0.2785220742225647), ('Experience', 0.18018288910388947)]","     category     score
+0  Experience  0.457968
+1     Amenity  0.275193
+2    Facility  0.266839",Positive,"{'Positive': 0.6677895188331604, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R17,and access to a swimming pool on the 25th floor,"the apartment is well equipped and comfortable, with a beautiful city view we stayed on the 21st floor and access to a swimming pool on the 25th floor.",swimming pool,,Facility,"[('Facility', 0.3405016362667084), ('Amenity', 0.1827206164598465), ('Experience', 0.12475176155567169)]","     category     score
+0    Facility  0.438930
+1  Experience  0.303124
+2     Amenity  0.257945",Neutral,"{'Neutral': 0.9471485614776611, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R18,swimming pool was big enough to do a few lengths in,swimming pool was big enough to do a few lengths in with privacy at the top.,swimming pool,big enough to do a few lengths in,Facility,"[('Facility', 0.2794845998287201), ('Amenity', 0.14446543157100677), ('Experience', 0.09443577378988266)]","     category     score
+0    Facility  0.479388
+1     Amenity  0.265843
+2  Experience  0.254768",Positive,"{'Positive': 0.7135987877845764, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R20,the pool on the top had a fantastic view,decorated the room for us which was nice and the pool on the top had a fantastic view.,pool,fantastic,Facility,"[('Facility', 0.29217952489852905), ('Amenity', 0.18964432179927826), ('Experience', 0.1888270378112793)]","     category     score
+0    Facility  0.381785
+1  Experience  0.318574
+2     Amenity  0.299641",Positive,"{'Positive': 0.953670859336853, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R23,a great pool to relax in when walking around gets too hot,very spacious property with really good amenities! incredible view of the city and a great pool to relax in when walking around gets too hot.,pool,great,Facility,"[('Facility', 0.3372534215450287), ('Amenity', 0.22114567458629608), ('Experience', 0.1576136201620102)]","     category     score
+0    Facility  0.420238
+1     Amenity  0.328504
+2  Experience  0.251258",Positive,"{'Positive': 0.7946943640708923, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R1,the right choice.,the right choice.,,right,Loyalty,"[('Amenity', 0.027914855629205704), ('Loyalty', 0.025945909321308136), ('Facility', 0.02238161489367485)]","   category    score
+0   Loyalty  0.36590
+1   Amenity  0.32279
+2  Facility  0.31131",Positive,"{'Positive': 0.6302539110183716, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R8,"the apartment, neat, clean.","the apartment, neat, clean.",apartment,"neat, clean",Loyalty,"[('Facility', 0.4058176577091217), ('Amenity', 0.29444536566734314), ('Loyalty', 0.1929393857717514)]","   category     score
+0   Loyalty  0.632088
+1   Amenity  0.184634
+2  Facility  0.183278",Positive,"{'Positive': 0.9890328645706177, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R8,compared to the neighborhood,room's good compared to the neighborhood.,,,Loyalty,"[('Amenity', 0.11692482233047485), ('Facility', 0.0817776769399643), ('Loyalty', 0.06251658499240875)]","   category     score
+0   Loyalty  0.400638
+1  Facility  0.346994
+2   Amenity  0.252368",Neutral,"{'Neutral': 0.46267032623291016, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R15,with your family,perfect place to stay with your family,,,Loyalty,"[('Amenity', 0.0401393286883831), ('Loyalty', 0.030169690027832985), ('Facility', 0.029528163373470306)]","   category     score
+0   Loyalty  0.361602
+1  Facility  0.357097
+2   Amenity  0.281302",Positive,"{'Positive': 0.7212537527084351, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R1,the chilling new subway line,view over the city center and the chilling new subway line.,subway line,chilling,Service,"[('Facility', 0.16090857982635498), ('Branding', 0.10614296048879623), ('Service', 0.08969758450984955)]","   category    score
+0   Service  0.71713
+1  Branding  0.24013
+2  Facility  0.04274",Negative,"{'Negative': 0.9461781978607178, 'Positive': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R1,it's near the subway station,it's near the subway station. it's easy to get to the castle.,subway station,,Service,"[('Facility', 0.34602275490760803), ('Service', 0.1196606233716011), ('Amenity', 0.11031368374824524)]","   category     score
+0   Service  0.892451
+1   Amenity  0.060053
+2  Facility  0.047496",Neutral,"{'Neutral': 0.6671194434165955, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R1,the host was so friendly,"the host was so friendly, i got back to the hotel around 1 00 a.m. and he was still waiting for me to show him how to check in.",host,friendly,Service,"[('Service', 0.18022112548351288), ('Experience', 0.1741863191127777), ('Facility', 0.1546560674905777)]","     category     score
+0     Service  0.857613
+1    Facility  0.079354
+2  Experience  0.063033",Positive,"{'Positive': 0.9854769110679626, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R1,i got back to the hotel around 1 00 a.m. and he was still waiting for me to show him how to check in,"the host was so friendly, i got back to the hotel around 1 00 a.m. and he was still waiting for me to show him how to check in.",,,Service,"[('Facility', 0.22910167276859283), ('Service', 0.2177666425704956), ('Experience', 0.1870286911725998)]","     category     score
+0     Service  0.895700
+1  Experience  0.062742
+2    Facility  0.041558",Negative,"{'Negative': 0.8263994455337524, 'Positive': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R1,"no, you didn't.","no, you didn't.",,,Service,"[('Loyalty', -0.018837548792362213), ('Service', -0.051278118044137955), ('Experience', -0.08189676702022552)]","     category     score
+0     Service  0.821516
+1  Experience  0.090542
+2     Loyalty  0.087942",Negative,"{'Negative': 0.5804211497306824, 'Positive': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R2,very good.,very good.,,good,Service,"[('Service', 0.05774358659982681), ('Loyalty', 0.04291031137108803), ('Facility', -0.007468335330486298)]","   category     score
+0   Service  0.853610
+1  Facility  0.082089
+2   Loyalty  0.064301",Positive,"{'Positive': 0.991111695766449, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R2,sweet,"the owner is enthusiastic, sweet, fully furnished, loves the big screen tv.",,sweet,Service,"[('Loyalty', 0.04151415824890137), ('Service', 0.015184974297881126), ('Amenity', -0.006346844136714935)]","  category    score
+0  Service  0.83695
+1  Loyalty  0.08605
+2  Amenity  0.07700",Positive,"{'Positive': 0.987117350101471, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R2,fully furnished,"the owner is enthusiastic, sweet, fully furnished, loves the big screen tv.",,fully furnished,Service,"[('Facility', 0.3234848082065582), ('Service', 0.18175402283668518), ('Amenity', 0.16465294361114502)]","   category     score
+0   Service  0.854289
+1  Facility  0.085814
+2   Amenity  0.059898",Positive,"{'Positive': 0.9943655729293823, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R2,that's great.,that's great.,,great,Service,"[('Service', -0.018681131303310394), ('Facility', -0.03457829728722572), ('Loyalty', -0.03502579778432846)]","   category     score
+0   Service  0.849680
+1  Facility  0.082891
+2   Loyalty  0.067429",Positive,"{'Positive': 0.8875041007995605, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R3,very good,very good,,very good,Service,"[('Service', 0.05970337986946106), ('Loyalty', 0.05067893862724304), ('Facility', -0.004613127559423447)]","   category     score
+0   Service  0.842597
+1  Facility  0.093192
+2   Loyalty  0.064211",Positive,"{'Positive': 0.9977272152900696, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R3,i'm not doing anything.,i'm not doing anything.,,,Service,"[('Amenity', 0.02785150147974491), ('Service', 0.024521613493561745), ('Loyalty', -0.006296929903328419)]","  category     score
+0  Service  0.814310
+1  Loyalty  0.095547
+2  Amenity  0.090143",Positive,"{'Positive': 0.6986555457115173, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R4,very good.,very good.,,good,Service,"[('Service', 0.05774358659982681), ('Loyalty', 0.04291031137108803), ('Facility', -0.007468335330486298)]","   category     score
+0   Service  0.853610
+1  Facility  0.082089
+2   Loyalty  0.064301",Positive,"{'Positive': 0.991111695766449, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R4,there's a washing machine,"there's a washing machine, a clothes dryer, a hair dryer, a sewing machine.",washing machine,,Service,"[('Facility', 0.12235382199287415), ('Amenity', 0.06159404665231705), ('Service', -0.0031257309019565582)]","   category     score
+0   Service  0.783788
+1   Amenity  0.145707
+2  Facility  0.070505",Neutral,"{'Neutral': 0.9408980011940002, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R4,a sewing machine,"there's a washing machine, a clothes dryer, a hair dryer, a sewing machine.",sewing machine,,Service,"[('Facility', 0.12546195089817047), ('Amenity', 0.025258177891373634), ('Service', -0.0049032047390937805)]","   category     score
+0   Service  0.855371
+1   Amenity  0.106973
+2  Facility  0.037656",Neutral,"{'Neutral': 0.9400410056114197, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R4,mr. dinh has been supporting his family for the past two days.,mr. dinh has been supporting his family for the past two days.,,,Service,"[('Loyalty', 0.07164446264505386), ('Service', 0.032541509717702866), ('Facility', -0.013450182974338531)]","   category     score
+0   Service  0.869284
+1  Facility  0.069881
+2   Loyalty  0.060836",Neutral,"{'Neutral': 0.8231107592582703, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R5,very good.,very good.,,good,Service,"[('Service', 0.05774358659982681), ('Loyalty', 0.04291031137108803), ('Facility', -0.007468335330486298)]","   category     score
+0   Service  0.853610
+1  Facility  0.082089
+2   Loyalty  0.064301",Positive,"{'Positive': 0.991111695766449, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R5,it's fully equipped.,it's fully equipped.,,fully equipped,Service,"[('Facility', 0.11211445182561874), ('Amenity', 0.0586741678416729), ('Service', 0.013210093602538109)]","   category     score
+0   Service  0.873182
+1  Facility  0.074964
+2   Amenity  0.051854",Positive,"{'Positive': 0.9225491881370544, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R6,clean will full furnishings your master is very enthusiastic.,clean will full furnishings your master is very enthusiastic.,,"clean, enthusiastic",Service,"[('Facility', 0.2042580097913742), ('Amenity', 0.14016182720661163), ('Service', 0.1366329789161682)]","   category     score
+0   Service  0.885022
+1   Amenity  0.071616
+2  Facility  0.043362",Positive,"{'Positive': 0.9250133037567139, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R6,"no, you didn't.","no, you didn't.",,,Service,"[('Loyalty', -0.018837548792362213), ('Service', -0.051278118044137955), ('Experience', -0.08189676702022552)]","     category     score
+0     Service  0.821516
+1  Experience  0.090542
+2     Loyalty  0.087942",Negative,"{'Negative': 0.5804211497306824, 'Positive': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R7,very good.,very good.,,good,Service,"[('Service', 0.05774358659982681), ('Loyalty', 0.04291031137108803), ('Facility', -0.007468335330486298)]","   category     score
+0   Service  0.853610
+1  Facility  0.082089
+2   Loyalty  0.064301",Positive,"{'Positive': 0.991111695766449, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R7,we've got all the equipment we need.,we've got all the equipment we need.,,,Service,"[('Facility', 0.15547673404216766), ('Service', 0.09987226128578186), ('Amenity', 0.07242598384618759)]","   category     score
+0   Service  0.905195
+1   Amenity  0.053709
+2  Facility  0.041096",Neutral,"{'Neutral': 0.7927919030189514, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R8,that's great!,that's great!,,great,Service,"[('Facility', -0.0098823681473732), ('Service', -0.01492900587618351), ('Loyalty', -0.03752022609114647)]","   category     score
+0   Service  0.834898
+1  Facility  0.094779
+2   Loyalty  0.070323",Positive,"{'Positive': 0.9715206623077393, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R8,it's a bit old,"like the other rooms here, it's a bit old, but it's very well used.",,old,Service,"[('Loyalty', -0.029471414163708687), ('Experience', -0.052051201462745667), ('Service', -0.056000083684921265)]","     category     score
+0     Service  0.813429
+1  Experience  0.106908
+2     Loyalty  0.079662",Negative,"{'Negative': 0.9038704037666321, 'Positive': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R8,but it's very well used,"like the other rooms here, it's a bit old, but it's very well used.",,very well used,Service,"[('Service', 0.056645698845386505), ('Facility', 0.04967357963323593), ('Loyalty', 0.04763844609260559)]","   category     score
+0   Service  0.882855
+1   Loyalty  0.066037
+2  Facility  0.051107",Positive,"{'Positive': 0.6301639676094055, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R8,room's good,room's good compared to the neighborhood.,room,good,Service,"[('Facility', 0.40425676107406616), ('Experience', 0.24650508165359497), ('Service', 0.1704663783311844)]","     category     score
+0     Service  0.846683
+1  Experience  0.082100
+2    Facility  0.071217",Positive,"{'Positive': 0.984312117099762, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R9,very good.,very good.,,good,Service,"[('Service', 0.05774358659982681), ('Loyalty', 0.04291031137108803), ('Facility', -0.007468335330486298)]","   category     score
+0   Service  0.853610
+1  Facility  0.082089
+2   Loyalty  0.064301",Positive,"{'Positive': 0.991111695766449, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R9,nice.,nice.,,nice,Service,"[('Service', 0.009165859781205654), ('Loyalty', -0.0010151551105082035), ('Facility', -0.020651349797844887)]","   category     score
+0   Service  0.823013
+1  Facility  0.096700
+2   Loyalty  0.080286",Positive,"{'Positive': 0.9640445709228516, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R10,very good.,very good.,,good,Service,"[('Service', 0.05774358659982681), ('Loyalty', 0.04291031137108803), ('Facility', -0.007468335330486298)]","   category     score
+0   Service  0.853610
+1  Facility  0.082089
+2   Loyalty  0.064301",Positive,"{'Positive': 0.991111695766449, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R11,very good.,very good.,,good,Service,"[('Service', 0.05774358659982681), ('Loyalty', 0.04291031137108803), ('Facility', -0.007468335330486298)]","   category     score
+0   Service  0.853610
+1  Facility  0.082089
+2   Loyalty  0.064301",Positive,"{'Positive': 0.991111695766449, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R11,the lounge is clean.,the lounge is clean.,lounge,clean,Service,"[('Facility', 0.4044837951660156), ('Service', 0.29012006521224976), ('Amenity', 0.2674485445022583)]","   category     score
+0   Service  0.906366
+1  Facility  0.048338
+2   Amenity  0.045296",Positive,"{'Positive': 0.7481247186660767, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R11,loaded with all the equipment we need.,loaded with all the equipment we need.,,loaded,Service,"[('Facility', 0.11115004867315292), ('Service', 0.03841818496584892), ('Amenity', 0.0360928550362587)]","   category     score
+0   Service  0.899031
+1   Amenity  0.066352
+2  Facility  0.034617",Positive,"{'Positive': 0.5850648283958435, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R11,the staff is very enthusiastic,"the staff is very enthusiastic, supportive all the time, everywhere.",staff,very enthusiastic,Service,"[('Facility', 0.2833116054534912), ('Service', 0.2559843063354492), ('Amenity', 0.15131790935993195)]","   category     score
+0   Service  0.910971
+1  Facility  0.061023
+2   Amenity  0.028006",Positive,"{'Positive': 0.9903678894042969, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R11,supportive all the time,"the staff is very enthusiastic, supportive all the time, everywhere.",,supportive,Service,"[('Loyalty', 0.13671857118606567), ('Service', 0.024893052875995636), ('Facility', -0.002889650873839855)]","   category     score
+0   Service  0.856086
+1   Loyalty  0.076309
+2  Facility  0.067605",Positive,"{'Positive': 0.9949294328689575, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R11,everywhere,"the staff is very enthusiastic, supportive all the time, everywhere.",,,Service,"[('Facility', 0.1003018468618393), ('Amenity', 0.04582478106021881), ('Service', -0.008869165554642677)]","   category     score
+0   Service  0.845348
+1  Facility  0.090894
+2   Amenity  0.063758",Neutral,"{'Neutral': 0.9408624172210693, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R11,i'll be back,i'll be back if i get the chance.,,,Service,"[('Loyalty', 0.1349344551563263), ('Amenity', 0.039504051208496094), ('Service', 0.034897033125162125)]","  category     score
+0  Service  0.824550
+1  Loyalty  0.089528
+2  Amenity  0.085922",Neutral,"{'Neutral': 0.6571319699287415, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R11,if i get the chance,i'll be back if i get the chance.,,,Service,"[('Loyalty', -0.009525216184556484), ('Service', -0.04960012808442116), ('Amenity', -0.05004176124930382)]","  category     score
+0  Service  0.854002
+1  Amenity  0.079755
+2  Loyalty  0.066243",Positive,"{'Positive': 0.6567550897598267, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R12,very good.,very good.,,good,Service,"[('Service', 0.05774358659982681), ('Loyalty', 0.04291031137108803), ('Facility', -0.007468335330486298)]","   category     score
+0   Service  0.853610
+1  Facility  0.082089
+2   Loyalty  0.064301",Positive,"{'Positive': 0.991111695766449, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R12,clean,"clean, comfortable, with a nice view.",,clean,Service,"[('Service', 0.06494154036045074), ('Loyalty', 0.06154252961277962), ('Branding', 0.030683526769280434)]","   category     score
+0   Service  0.731628
+1  Branding  0.190414
+2   Loyalty  0.077957",Positive,"{'Positive': 0.9831768274307251, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R12,comfortable,"clean, comfortable, with a nice view.",,comfortable,Service,"[('Experience', 0.149553582072258), ('Facility', 0.1104011982679367), ('Service', 0.07774056494235992)]","     category     score
+0     Service  0.825849
+1    Facility  0.111607
+2  Experience  0.062543",Positive,"{'Positive': 0.9959473013877869, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R13,very good.,very good.,,good,Service,"[('Service', 0.05774358659982681), ('Loyalty', 0.04291031137108803), ('Facility', -0.007468335330486298)]","   category     score
+0   Service  0.853610
+1  Facility  0.082089
+2   Loyalty  0.064301",Positive,"{'Positive': 0.991111695766449, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R13,diny was very kind,diny was very kind and helpful all the time.,diny,very kind,Service,"[('Service', 0.1675349771976471), ('Experience', 0.09449707716703415), ('Loyalty', 0.05749190226197243)]","     category     score
+0     Service  0.878011
+1  Experience  0.071545
+2     Loyalty  0.050444",Positive,"{'Positive': 0.983119785785675, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R13,and helpful all the time,diny was very kind and helpful all the time.,,"helpful, all the time",Service,"[('Service', 0.07176841050386429), ('Loyalty', 0.06725406646728516), ('Facility', 0.04146065562963486)]","   category     score
+0   Service  0.869753
+1   Loyalty  0.069056
+2  Facility  0.061191",Positive,"{'Positive': 0.9973002076148987, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R13,next to minor 2 is located very cheap seafood restaurant,"next to minor 2 is located very cheap seafood restaurant, i've been there at least 3 times.",seafood restaurant,cheap,Service,"[('Facility', 0.23144885897636414), ('Amenity', 0.1968737244606018), ('Service', 0.1645931452512741)]","   category     score
+0   Service  0.862554
+1   Amenity  0.077590
+2  Facility  0.059855",Positive,"{'Positive': 0.7882068157196045, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R13,i've been there at least 3 times,"next to minor 2 is located very cheap seafood restaurant, i've been there at least 3 times.",,,Service,"[('Facility', 0.1638236790895462), ('Experience', 0.15169216692447662), ('Service', 0.12483786791563034)]","     category     score
+0     Service  0.844130
+1  Experience  0.103305
+2    Facility  0.052565",Neutral,"{'Neutral': 0.9806360602378845, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R13,diny,"diny, thank you and see you again!.",,,Service,"[('Service', 0.07099995017051697), ('Loyalty', 0.02937397174537182), ('Facility', -0.001284826546907425)]","   category     score
+0   Service  0.811970
+1  Facility  0.099896
+2   Loyalty  0.088134",Neutral,"{'Neutral': 0.8167374134063721, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R13,thank you,"diny, thank you and see you again!.",,thank,Service,"[('Service', 0.028531773015856743), ('Loyalty', 0.014313798397779465), ('Amenity', 0.006682580336928368)]","  category     score
+0  Service  0.839935
+1  Loyalty  0.083605
+2  Amenity  0.076460",Positive,"{'Positive': 0.9730709195137024, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R13,see you again!,"diny, thank you and see you again!.",,,Service,"[('Loyalty', 0.08960658311843872), ('Service', 0.048267364501953125), ('Amenity', 0.03608095645904541)]","  category     score
+0  Service  0.852851
+1  Loyalty  0.079315
+2  Amenity  0.067834",Positive,"{'Positive': 0.76035076379776, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R14,excellent stay!,excellent stay!,,excellent,Service,"[('Loyalty', 0.16357572376728058), ('Facility', 0.12624403834342957), ('Service', 0.12375437468290329)]","   category     score
+0   Service  0.801611
+1  Facility  0.109144
+2   Loyalty  0.089245",Positive,"{'Positive': 0.9798492789268494, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R14,perfect location,"perfect location, great facilities, everything was cleaned and well prepared.",,perfect,Service,"[('Facility', 0.18902142345905304), ('Service', 0.05332006514072418), ('Amenity', 0.045573923736810684)]","   category     score
+0   Service  0.862549
+1  Facility  0.073945
+2   Amenity  0.063506",Positive,"{'Positive': 0.9917237162590027, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R14,great facilities,"perfect location, great facilities, everything was cleaned and well prepared.",facilities,great,Service,"[('Facility', 0.6138303279876709), ('Service', 0.3003518879413605), ('Amenity', 0.2628134489059448)]","   category     score
+0   Service  0.897890
+1   Amenity  0.065893
+2  Facility  0.036216",Positive,"{'Positive': 0.9977585077285767, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R14,everything was cleaned and well prepared,"perfect location, great facilities, everything was cleaned and well prepared.",,"cleaned, well prepared",Service,"[('Service', 0.12213140726089478), ('Facility', 0.11384215205907822), ('Branding', 0.01373051106929779)]","   category     score
+0   Service  0.695769
+1  Branding  0.254732
+2  Facility  0.049499",Positive,"{'Positive': 0.9970025420188904, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R14,diny was really helpful,"diny was really helpful, he gave us many tips and helped us with departure.",diny,really helpful,Service,"[('Service', 0.1394696831703186), ('Facility', 0.05492279306054115), ('Loyalty', 0.03951676934957504)]","   category     score
+0   Service  0.882045
+1  Facility  0.060679
+2   Loyalty  0.057276",Positive,"{'Positive': 0.9781395792961121, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R14,he gave us many tips,"diny was really helpful, he gave us many tips and helped us with departure.",,,Service,"[('Service', 0.04256819188594818), ('Loyalty', 0.02580610103905201), ('Facility', -0.006499350070953369)]","   category     score
+0   Service  0.909751
+1   Loyalty  0.047894
+2  Facility  0.042355",Positive,"{'Positive': 0.9926647543907166, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R14,and helped us with departure,"diny was really helpful, he gave us many tips and helped us with departure.",,,Service,"[('Loyalty', 0.1308833211660385), ('Service', 0.07964245975017548), ('Facility', 0.04611986130475998)]","   category     score
+0   Service  0.903600
+1   Loyalty  0.049402
+2  Facility  0.046998",Positive,"{'Positive': 0.9314767122268677, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R15,everything was as we wished for a host who looked after us,"everything was as we wished for a host who looked after us, the place and its location, and its facilities.",host,looked after,Service,"[('Facility', 0.20652106404304504), ('Service', 0.19637399911880493), ('Loyalty', 0.16328313946723938)]","   category     score
+0   Service  0.906247
+1  Facility  0.046985
+2   Loyalty  0.046768",Positive,"{'Positive': 0.992127537727356, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R15,the place and its location,"everything was as we wished for a host who looked after us, the place and its location, and its facilities.",,,Service,"[('Facility', 0.23624195158481598), ('Amenity', 0.10922003537416458), ('Service', 0.08205714076757431)]","   category     score
+0   Service  0.890463
+1   Amenity  0.082665
+2  Facility  0.026873",Neutral,"{'Neutral': 0.872101366519928, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R15,its facilities,"everything was as we wished for a host who looked after us, the place and its location, and its facilities.",facilities,,Service,"[('Facility', 0.6556036472320557), ('Amenity', 0.2955595850944519), ('Service', 0.2942538857460022)]","   category     score
+0   Service  0.855647
+1   Amenity  0.097018
+2  Facility  0.047335",Neutral,"{'Neutral': 0.5300582051277161, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R15,during your visit to hcmc,really good place to stay during your visit to hcmc.,,,Service,"[('Facility', 0.2059352993965149), ('Service', 0.1319485753774643), ('Experience', 0.11333394795656204)]","     category     score
+0     Service  0.880551
+1  Experience  0.068486
+2    Facility  0.050964",Neutral,"{'Neutral': 0.8317315578460693, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R15,"the sofa, which was our second bed, needs to be replaced","the sofa, which was our second bed, needs to be replaced it is quite dated and extremely uncomfortable to sleep on.",sofa,needs to be replaced,Service,"[('Facility', 0.3154817819595337), ('Amenity', 0.1637204885482788), ('Service', 0.11421924829483032)]","   category     score
+0   Service  0.716070
+1   Amenity  0.171975
+2  Facility  0.111954",Negative,"{'Negative': 0.7917782068252563, 'Positive': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R16,lovely stay,lovely stay,,lovely,Service,"[('Loyalty', 0.1803932636976242), ('Facility', 0.14228835701942444), ('Service', 0.13994303345680237)]","   category     score
+0   Service  0.798031
+1  Facility  0.104719
+2   Loyalty  0.097251",Positive,"{'Positive': 0.9941877126693726, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R16,nice place,nice place with a beautiful view and equipped with all what you need.,,nice,Service,"[('Facility', 0.15012267231941223), ('Service', 0.08955375105142593), ('Amenity', 0.05935543030500412)]","   category     score
+0   Service  0.847990
+1  Facility  0.089208
+2   Amenity  0.062802",Positive,"{'Positive': 0.9929025769233704, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R16,and equipped with all what you need,nice place with a beautiful view and equipped with all what you need.,,,Service,"[('Facility', 0.14756205677986145), ('Amenity', 0.13640102744102478), ('Service', 0.06323491781949997)]","   category     score
+0   Service  0.895126
+1   Amenity  0.063665
+2  Facility  0.041209",Positive,"{'Positive': 0.9906632900238037, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R16,diny is a really nice guy,diny is a really nice guy and very helpful.,diny,nice,Service,"[('Service', 0.13226547837257385), ('Branding', 0.049900345504283905), ('Facility', 0.048342686146497726)]","   category     score
+0   Service  0.738801
+1  Branding  0.202214
+2  Facility  0.058985",Positive,"{'Positive': 0.9637096524238586, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R16,very helpful,diny is a really nice guy and very helpful.,,very helpful,Service,"[('Loyalty', 0.055904321372509), ('Service', 0.051702238619327545), ('Facility', 0.02720305696129799)]","   category     score
+0   Service  0.885058
+1  Facility  0.067294
+2   Loyalty  0.047648",Positive,"{'Positive': 0.9961739182472229, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R16,would definitely come back again.,would definitely come back again.,,definitely,Service,"[('Loyalty', 0.08051730692386627), ('Service', -0.02776150032877922), ('Amenity', -0.043571677058935165)]","  category     score
+0  Service  0.849503
+1  Loyalty  0.085362
+2  Amenity  0.065135",Positive,"{'Positive': 0.9532292485237122, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R16,the place is a bit more outside the center,the place is a bit more outside the center and the metro stations are quite difficult to reach or to leave if you don't want to use vehicles.,,,Service,"[('Facility', 0.26683440804481506), ('Amenity', 0.1210506409406662), ('Service', 0.09398303925991058)]","   category     score
+0   Service  0.855953
+1   Amenity  0.098434
+2  Facility  0.045614",Neutral,"{'Neutral': 0.40814557671546936, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R16,the metro stations are quite difficult to reach or to leave if you don't want to use vehicles,the place is a bit more outside the center and the metro stations are quite difficult to reach or to leave if you don't want to use vehicles.,metro stations,difficult,Service,"[('Facility', 0.3249627351760864), ('Amenity', 0.2858467102050781), ('Service', 0.1394670158624649)]","   category     score
+0   Service  0.800347
+1   Amenity  0.115810
+2  Facility  0.083843",Negative,"{'Negative': 0.9515336155891418, 'Positive': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R17,that's great.,that's great.,,great,Service,"[('Service', -0.018681131303310394), ('Facility', -0.03457829728722572), ('Loyalty', -0.03502579778432846)]","   category     score
+0   Service  0.849680
+1  Facility  0.082891
+2   Loyalty  0.067429",Positive,"{'Positive': 0.8875041007995605, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R17,"diny, is a very kind person","diny, is a very kind person, always helpful in every matter.",diny,very kind,Service,"[('Service', 0.1672983318567276), ('Loyalty', 0.0757862776517868), ('Experience', 0.05068273842334747)]","     category     score
+0     Service  0.846552
+1  Experience  0.096511
+2     Loyalty  0.056937",Positive,"{'Positive': 0.994282603263855, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R17,always helpful in every matter,"diny, is a very kind person, always helpful in every matter.",,helpful,Service,"[('Loyalty', 0.10698340088129044), ('Service', 0.10039600729942322), ('Facility', 0.06653017550706863)]","   category     score
+0   Service  0.905403
+1   Loyalty  0.048291
+2  Facility  0.046306",Positive,"{'Positive': 0.9965299963951111, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R17,"in our case, he was willing to arrange an earlier check in","in our case, he was willing to arrange an earlier check in and even offered to change the apartment due to our longer stay.",,,Service,"[('Loyalty', 0.078330397605896), ('Facility', 0.06388376653194427), ('Service', 0.017600927501916885)]","   category     score
+0   Service  0.903790
+1  Facility  0.053642
+2   Loyalty  0.042568",Positive,"{'Positive': 0.9913293123245239, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R17,and comfortable,"the apartment is well equipped and comfortable, with a beautiful city view we stayed on the 21st floor and access to a swimming pool on the 25th floor.",,comfortable,Service,"[('Facility', 0.1545361578464508), ('Experience', 0.135385662317276), ('Service', 0.09908461570739746)]","     category     score
+0     Service  0.840219
+1    Facility  0.098579
+2  Experience  0.061202",Positive,"{'Positive': 0.9964775443077087, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R17,we could contact diny at any time,"we could contact diny at any time, and he was always ready to help and share his knowledge whether it was about local attractions, good restaurants and street food spots, or transportation options.",,,Service,"[('Facility', 0.07070853561162949), ('Service', 0.06567379832267761), ('Amenity', -0.021428566426038742)]","   category     score
+0   Service  0.860303
+1   Amenity  0.075428
+2  Facility  0.064269",Neutral,"{'Neutral': 0.5088868737220764, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R17,and he was always ready to help,"we could contact diny at any time, and he was always ready to help and share his knowledge whether it was about local attractions, good restaurants and street food spots, or transportation options.",,ready to help,Service,"[('Loyalty', -0.005869307555258274), ('Facility', -0.006000976078212261), ('Service', -0.012585079297423363)]","   category     score
+0   Service  0.907623
+1  Facility  0.052366
+2   Loyalty  0.040011",Positive,"{'Positive': 0.9928923845291138, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R17,good restaurants and street food spots,"we could contact diny at any time, and he was always ready to help and share his knowledge whether it was about local attractions, good restaurants and street food spots, or transportation options.","restaurants, street food spots",good,Service,"[('Facility', 0.3490065038204193), ('Amenity', 0.2862960696220398), ('Service', 0.2275940179824829)]","   category     score
+0   Service  0.865267
+1   Amenity  0.083683
+2  Facility  0.051049",Positive,"{'Positive': 0.9747009873390198, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R17,or transportation options,"we could contact diny at any time, and he was always ready to help and share his knowledge whether it was about local attractions, good restaurants and street food spots, or transportation options.",,,Service,"[('Amenity', 0.15216714143753052), ('Facility', 0.1379065215587616), ('Service', 0.016967421397566795)]","   category     score
+0   Service  0.872871
+1  Facility  0.073726
+2   Amenity  0.053403",Neutral,"{'Neutral': 0.6850114464759827, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R17,we were very satisfied with our stay,we were very satisfied with our stay and would love to come back!.,stay,very satisfied,Service,"[('Loyalty', 0.3694640100002289), ('Service', 0.24154309928417206), ('Experience', 0.22844775021076202)]","     category     score
+0     Service  0.856617
+1     Loyalty  0.078060
+2  Experience  0.065323",Positive,"{'Positive': 0.995701253414154, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R17,and would love to come back!,we were very satisfied with our stay and would love to come back!.,,love,Service,"[('Loyalty', 0.10354986786842346), ('Service', 0.017490334808826447), ('Amenity', 0.012233519926667213)]","  category     score
+0  Service  0.849395
+1  Loyalty  0.079818
+2  Amenity  0.070787",Positive,"{'Positive': 0.9227975606918335, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R17,i'm not doing anything.,i'm not doing anything.,,,Service,"[('Amenity', 0.02785150147974491), ('Service', 0.024521613493561745), ('Loyalty', -0.006296929903328419)]","  category     score
+0  Service  0.814310
+1  Loyalty  0.095547
+2  Amenity  0.090143",Positive,"{'Positive': 0.6986555457115173, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R18,very good.,very good.,,good,Service,"[('Service', 0.05774358659982681), ('Loyalty', 0.04291031137108803), ('Facility', -0.007468335330486298)]","   category     score
+0   Service  0.853610
+1  Facility  0.082089
+2   Loyalty  0.064301",Positive,"{'Positive': 0.991111695766449, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R18,in a nice quiet residential area in ho chi minh city,great apartment in a nice quiet residential area in ho chi minh city.,,"nice, quiet",Service,"[('Facility', 0.23001396656036377), ('Service', 0.10817354172468185), ('Amenity', 0.0994354635477066)]","   category     score
+0   Service  0.852847
+1   Amenity  0.083640
+2  Facility  0.063513",Positive,"{'Positive': 0.9572321176528931, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R18,if you want to experience true vietnamese local street food,if you want to experience true vietnamese local street food then this is in a great area.,vietnamese local street food,true,Service,"[('Service', 0.1664125621318817), ('Facility', 0.1613364964723587), ('Experience', 0.12668158113956451)]","     category     score
+0     Service  0.827663
+1    Facility  0.087849
+2  Experience  0.084488",Neutral,"{'Neutral': 0.5569852590560913, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R18,and as it opens up you can see so many different food vendors selling their products,just behind the apartment you walk down narrow roads and as it opens up you can see so many different food vendors selling their products and such cheap prices.,,,Service,"[('Amenity', 0.14629729092121124), ('Facility', 0.1361393928527832), ('Service', 0.12279929220676422)]","   category     score
+0   Service  0.810146
+1   Amenity  0.126712
+2  Facility  0.063142",Positive,"{'Positive': 0.8897387981414795, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R18,the host is a great guy,"the host is a great guy, very accommodating and helpful, will give you loads of tips of where to go and best way to get there etc.",host,great,Service,"[('Facility', 0.18153557181358337), ('Service', 0.14732447266578674), ('Experience', 0.1061759740114212)]","     category     score
+0     Service  0.805457
+1  Experience  0.104920
+2    Facility  0.089623",Positive,"{'Positive': 0.9301323890686035, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R18,very accommodating and helpful,"the host is a great guy, very accommodating and helpful, will give you loads of tips of where to go and best way to get there etc.",,"very accommodating, very helpful",Service,"[('Loyalty', 0.08490671962499619), ('Facility', 0.06531020998954773), ('Service', 0.05983451381325722)]","   category     score
+0   Service  0.885411
+1   Loyalty  0.058715
+2  Facility  0.055874",Positive,"{'Positive': 0.9964779019355774, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R18,will give you loads of tips of where to go and best way to get there etc.,"the host is a great guy, very accommodating and helpful, will give you loads of tips of where to go and best way to get there etc.",,,Service,"[('Facility', 0.21697217226028442), ('Amenity', 0.12516310811042786), ('Service', 0.09269806742668152)]","   category     score
+0   Service  0.812987
+1   Amenity  0.132902
+2  Facility  0.054110",Positive,"{'Positive': 0.8723456859588623, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R18,comfortable bed,"apartment was nice, good air con, comfortable bed, big shower cubicle all very clean and tidy.",bed,comfortable,Service,"[('Experience', 0.25997039675712585), ('Facility', 0.24867253005504608), ('Service', 0.1817515641450882)]","     category     score
+0     Service  0.863081
+1    Facility  0.092380
+2  Experience  0.044538",Positive,"{'Positive': 0.9833317995071411, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R18,big shower cubicle all very clean,"apartment was nice, good air con, comfortable bed, big shower cubicle all very clean and tidy.",shower cubicle,clean,Service,"[('Facility', 0.31284812092781067), ('Service', 0.1539013534784317), ('Experience', 0.13638372719287872)]","     category     score
+0     Service  0.846515
+1  Experience  0.092826
+2    Facility  0.060659",Positive,"{'Positive': 0.9972073435783386, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R18,tidy,"apartment was nice, good air con, comfortable bed, big shower cubicle all very clean and tidy.",,tidy,Service,"[('Loyalty', 0.02764851041138172), ('Facility', 0.014921873807907104), ('Service', 0.014733944088220596)]","   category     score
+0   Service  0.829057
+1   Loyalty  0.086968
+2  Facility  0.083974",Positive,"{'Positive': 0.9760846495628357, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R18,but was clean and presentable,kitchen we didn t use as we ate out everyday but was clean and presentable.,,"clean, presentable",Service,"[('Service', 0.042494792491197586), ('Branding', 0.03857006877660751), ('Loyalty', 0.03166687488555908)]","   category     score
+0   Service  0.687014
+1  Branding  0.232913
+2   Loyalty  0.080072",Positive,"{'Positive': 0.9921013712882996, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R18,as it was closed for lunar new year,didn t get to see the gym as it was closed for lunar new year.,,,Service,"[('Facility', 0.06987027823925018), ('Amenity', 0.06448856741189957), ('Service', 0.0172012560069561)]","   category     score
+0   Service  0.873899
+1   Amenity  0.082517
+2  Facility  0.043583",Neutral,"{'Neutral': 0.8028967976570129, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R18,all in all it was great,"all in all it was great, would use again.",,great,Service,"[('Service', 0.044067006558179855), ('Experience', 0.04388680309057236), ('Facility', 0.009718391112983227)]","     category     score
+0     Service  0.835193
+1  Experience  0.100705
+2    Facility  0.064102",Positive,"{'Positive': 0.9949144124984741, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R18,would use again,"all in all it was great, would use again.",,would use again,Service,"[('Loyalty', 0.03913547098636627), ('Service', 0.018233604729175568), ('Amenity', 0.013011644594371319)]","  category     score
+0  Service  0.817564
+1  Loyalty  0.094301
+2  Amenity  0.088135",Positive,"{'Positive': 0.982642650604248, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R19,fantastic stay,fantastic stay amazing host first class,,fantastic,Service,"[('Loyalty', 0.17003877460956573), ('Facility', 0.13444748520851135), ('Service', 0.1240931898355484)]","   category     score
+0   Service  0.806657
+1   Loyalty  0.099466
+2  Facility  0.093877",Positive,"{'Positive': 0.995298445224762, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R19,amazing host,fantastic stay amazing host first class,host,amazing,Service,"[('Service', 0.21695266664028168), ('Facility', 0.2140318602323532), ('Experience', 0.21146458387374878)]","     category     score
+0     Service  0.776720
+1    Facility  0.130981
+2  Experience  0.092299",Positive,"{'Positive': 0.9933526515960693, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R19,first class,fantastic stay amazing host first class,,first class,Service,"[('Facility', 0.00310412491671741), ('Service', -0.006304866634309292), ('Branding', -0.009413053281605244)]","   category     score
+0   Service  0.711201
+1  Branding  0.216445
+2  Facility  0.072354",Positive,"{'Positive': 0.9598553776741028, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R19,with everything you need for a comfortable stay,"excellent apartment with everything you need for a comfortable stay, modern clean and nice comfortable bed etc.",,good,Service,"[('Facility', 0.3489148020744324), ('Service', 0.23593688011169434), ('Experience', 0.22088557481765747)]","     category     score
+0     Service  0.861935
+1  Experience  0.076888
+2    Facility  0.061177",Positive,"{'Positive': 0.9934833645820618, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R19,modern clean,"excellent apartment with everything you need for a comfortable stay, modern clean and nice comfortable bed etc.",,clean,Service,"[('Branding', 0.05404217913746834), ('Service', 0.028624795377254486), ('Facility', 0.016915148124098778)]","   category     score
+0   Service  0.705522
+1  Branding  0.218176
+2  Facility  0.076302",Positive,"{'Positive': 0.9980205297470093, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R19,and nice comfortable bed etc.,"excellent apartment with everything you need for a comfortable stay, modern clean and nice comfortable bed etc.",bed,"nice, comfortable",Service,"[('Facility', 0.4106632471084595), ('Experience', 0.3051592707633972), ('Service', 0.2643863558769226)]","     category     score
+0     Service  0.905640
+1  Experience  0.053154
+2    Facility  0.041206",Positive,"{'Positive': 0.9823906421661377, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R19,great facilities,great facilities also with a 7 11 and larger mart onsite and a lovely rooftop pool to relax in.,facilities,great,Service,"[('Facility', 0.6138303279876709), ('Service', 0.3003518879413605), ('Amenity', 0.2628134489059448)]","   category     score
+0   Service  0.897890
+1   Amenity  0.065893
+2  Facility  0.036216",Positive,"{'Positive': 0.9977585077285767, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R19,the host diny is honestly the most helpful guy you will ever meet,the host diny is honestly the most helpful guy you will ever meet he helped us with anything we asked.,host diny,"honestly, most helpful, ever meet",Service,"[('Service', 0.2054874449968338), ('Facility', 0.15929549932479858), ('Loyalty', 0.10385624319314957)]","   category     score
+0   Service  0.898915
+1  Facility  0.059469
+2   Loyalty  0.041616",Positive,"{'Positive': 0.9506584405899048, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R19,he helped us with anything we asked,the host diny is honestly the most helpful guy you will ever meet he helped us with anything we asked.,,,Service,"[('Service', 0.047458045184612274), ('Loyalty', 0.03341950476169586), ('Facility', 0.008188439533114433)]","   category     score
+0   Service  0.912497
+1   Loyalty  0.047378
+2  Facility  0.040125",Positive,"{'Positive': 0.9933700561523438, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R19,we would recommend him,we would recommend him and this accomodation to anyone.,him,recommend,Service,"[('Loyalty', 0.04653046280145645), ('Facility', 0.03815742954611778), ('Service', 0.0356888622045517)]","   category    score
+0   Service  0.82926
+1  Facility  0.08687
+2   Loyalty  0.08387",Positive,"{'Positive': 0.9888185858726501, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R19,and this accomodation to anyone,we would recommend him and this accomodation to anyone.,,,Service,"[('Facility', 0.2493051290512085), ('Service', 0.1565905213356018), ('Amenity', 0.15477293729782104)]","   category     score
+0   Service  0.897482
+1   Amenity  0.058342
+2  Facility  0.044176",Positive,"{'Positive': 0.9808119535446167, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R19,hope to stay again in the future,hope to stay again in the future thank you diny.,,,Service,"[('Loyalty', 0.1842583268880844), ('Service', 0.05995006486773491), ('Facility', 0.0574311763048172)]","   category     score
+0   Service  0.872962
+1   Loyalty  0.083402
+2  Facility  0.043636",Positive,"{'Positive': 0.9720821380615234, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R19,thank you diny,hope to stay again in the future thank you diny.,,,Service,"[('Service', 0.09740731120109558), ('Loyalty', 0.026747774332761765), ('Facility', 0.004594266414642334)]","   category     score
+0   Service  0.838927
+1  Facility  0.083275
+2   Loyalty  0.077798",Positive,"{'Positive': 0.9273940324783325, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R19,nothing,nothing the stay was first class .,,nothing,Service,"[('Service', 0.058796320110559464), ('Loyalty', 0.05853784829378128), ('Amenity', 0.05223117768764496)]","  category     score
+0  Service  0.814017
+1  Loyalty  0.094429
+2  Amenity  0.091553",Neutral,"{'Neutral': 0.8853914737701416, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R19,the stay was first class,nothing the stay was first class .,,first class,Service,"[('Loyalty', 0.14259499311447144), ('Facility', 0.08612993359565735), ('Service', 0.07988463342189789)]","   category     score
+0   Service  0.845781
+1  Facility  0.091950
+2   Loyalty  0.062269",Positive,"{'Positive': 0.9945552349090576, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R20,great stay,great stay,,great,Service,"[('Loyalty', 0.17164979875087738), ('Service', 0.10880409181118011), ('Experience', 0.10612144321203232)]","     category     score
+0     Service  0.808057
+1     Loyalty  0.112419
+2  Experience  0.079524",Positive,"{'Positive': 0.9949524402618408, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R20,recommended places for us to visit through whatsapp,"owner was brilliant, helped us to find nice locations for new years and recommended places for us to visit through whatsapp.",,,Service,"[('Facility', 0.16832229495048523), ('Amenity', 0.12002777308225632), ('Service', 0.07827354967594147)]","   category     score
+0   Service  0.885425
+1   Amenity  0.068971
+2  Facility  0.045604",Positive,"{'Positive': 0.838080108165741, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R20,i'm not doing anything.,i'm not doing anything.,,,Service,"[('Amenity', 0.02785150147974491), ('Service', 0.024521613493561745), ('Loyalty', -0.006296929903328419)]","  category     score
+0  Service  0.814310
+1  Loyalty  0.095547
+2  Amenity  0.090143",Positive,"{'Positive': 0.6986555457115173, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R21,very good.,very good.,,good,Service,"[('Service', 0.05774358659982681), ('Loyalty', 0.04291031137108803), ('Facility', -0.007468335330486298)]","   category     score
+0   Service  0.853610
+1  Facility  0.082089
+2   Loyalty  0.064301",Positive,"{'Positive': 0.991111695766449, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R21,host was very responsive,host was very responsive and kind to let me check in early.,host,very responsive,Service,"[('Service', 0.1502925008535385), ('Facility', 0.12606346607208252), ('Experience', 0.08375467360019684)]","     category     score
+0     Service  0.842698
+1    Facility  0.096576
+2  Experience  0.060726",Positive,"{'Positive': 0.9940993785858154, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R21,it was very clean,"it was very clean, had a great view and a very nice pool.",,very clean,Service,"[('Service', 0.08379246294498444), ('Branding', 0.03539985418319702), ('Facility', 0.031145837157964706)]","   category     score
+0   Service  0.686463
+1  Branding  0.235752
+2  Facility  0.077785",Positive,"{'Positive': 0.9961508512496948, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R21,had a great view,"it was very clean, had a great view and a very nice pool.",,great,Service,"[('Experience', 0.06863163411617279), ('Service', 0.03928700461983681), ('Branding', 0.02382788062095642)]","     category     score
+0     Service  0.685084
+1    Branding  0.246240
+2  Experience  0.068676",Positive,"{'Positive': 0.9890102744102478, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R21,a lot of food options around,a lot of food options around and 2 stores inside the building.,food options,,Service,"[('Facility', 0.2687147259712219), ('Amenity', 0.24948036670684814), ('Service', 0.17121393978595734)]","   category     score
+0   Service  0.891399
+1   Amenity  0.081883
+2  Facility  0.026719",Positive,"{'Positive': 0.8964388966560364, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R22,and host,excellent apartment and host,,,Service,"[('Facility', 0.1458951085805893), ('Amenity', 0.09671591967344284), ('Service', 0.08664056658744812)]","   category    score
+0   Service  0.82300
+1  Facility  0.09071
+2   Amenity  0.08629",Neutral,"{'Neutral': 0.5918365120887756, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R22,the host was really attentive,"the host was really attentive, met us at the apartment even though we were 5 hours delayed, walked us up to the room to show us the facilities.",host,really attentive,Service,"[('Service', 0.21493016183376312), ('Experience', 0.20923860371112823), ('Facility', 0.16263481974601746)]","     category     score
+0     Service  0.800454
+1    Facility  0.118938
+2  Experience  0.080608",Positive,"{'Positive': 0.9957203269004822, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R22,walked us up to the room to show us the facilities,"the host was really attentive, met us at the apartment even though we were 5 hours delayed, walked us up to the room to show us the facilities.","room, facilities",,Service,"[('Facility', 0.5620219707489014), ('Experience', 0.29943159222602844), ('Service', 0.2599697411060333)]","     category     score
+0     Service  0.907375
+1  Experience  0.067694
+2    Facility  0.024931",Positive,"{'Positive': 0.9281095862388611, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R22,he even sent me a whatsapp with local food and drink places.,he even sent me a whatsapp with local food and drink places.,,,Service,"[('Amenity', 0.03384355083107948), ('Facility', 0.011710366234183311), ('Service', 0.011331260204315186)]","   category     score
+0   Service  0.779697
+1   Amenity  0.158932
+2  Facility  0.061371",Neutral,"{'Neutral': 0.9333877563476562, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R22,the washing machine and dryer in the apartment came in handy.,the washing machine and dryer in the apartment came in handy.,"washing machine, dryer, apartment",came in handy,Service,"[('Facility', 0.2917756736278534), ('Amenity', 0.15654753148555756), ('Service', 0.06164483726024628)]","   category     score
+0   Service  0.801653
+1   Amenity  0.127580
+2  Facility  0.070767",Positive,"{'Positive': 0.693770170211792, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R22,and the host,i highly recommend this apartment and the host.,,,Service,"[('Facility', 0.1164105013012886), ('Service', 0.06765732169151306), ('Amenity', 0.061451829969882965)]","   category     score
+0   Service  0.810304
+1  Facility  0.106215
+2   Amenity  0.083481",Neutral,"{'Neutral': 0.9569606781005859, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R22,all was excellent,"all was excellent, and we would book again if we were to go to ho chi minh in the future .",,excellent,Service,"[('Service', 0.024180641397833824), ('Loyalty', -0.009172964841127396), ('Experience', -0.01027583796530962)]","     category     score
+0     Service  0.847546
+1  Experience  0.076264
+2     Loyalty  0.076190",Positive,"{'Positive': 0.9915304183959961, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R22,and we would book again if we were to go to ho chi minh in the future,"all was excellent, and we would book again if we were to go to ho chi minh in the future .",,,Service,"[('Service', 0.07745396345853806), ('Loyalty', 0.07350001484155655), ('Facility', 0.06105947494506836)]","   category     score
+0   Service  0.882971
+1  Facility  0.058724
+2   Loyalty  0.058305",Positive,"{'Positive': 0.7084857821464539, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R22,we thought the bed was so hard,"we thought the bed was so hard, even gave me a number hip in the night and the pillows too.",bed,hard,Service,"[('Facility', 0.18634888529777527), ('Experience', 0.17928674817085266), ('Service', 0.10613472759723663)]","     category     score
+0     Service  0.834646
+1    Facility  0.093952
+2  Experience  0.071401",Negative,"{'Negative': 0.9420055150985718, 'Positive': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R22,even gave me a number hip in the night,"we thought the bed was so hard, even gave me a number hip in the night and the pillows too.",,good,Service,"[('Service', 0.05455370992422104), ('Amenity', 0.05200111120939255), ('Facility', 0.030375558882951736)]","   category     score
+0   Service  0.857170
+1   Amenity  0.102915
+2  Facility  0.039914",Positive,"{'Positive': 0.778820812702179, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R22,all was good,apart from that all was good.,,good,Service,"[('Service', 0.008282801136374474), ('Loyalty', -0.016818739473819733), ('Facility', -0.06335663795471191)]","   category     score
+0   Service  0.806977
+1  Facility  0.118250
+2   Loyalty  0.074772",Positive,"{'Positive': 0.7708391547203064, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R23,very helpful host,very helpful host,host,very helpful,Service,"[('Service', 0.24439182877540588), ('Facility', 0.22410574555397034), ('Loyalty', 0.21647685766220093)]","   category     score
+0   Service  0.831927
+1  Facility  0.101400
+2   Loyalty  0.066674",Positive,"{'Positive': 0.9233104586601257, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R23,diny was extremely helpful,"diny was extremely helpful and gave great recommendations for food, shopping and let us leave our bags after check out!.",diny,extremely helpful,Service,"[('Service', 0.15882253646850586), ('Facility', 0.05577599257230759), ('Loyalty', 0.053194742649793625)]","   category     score
+0   Service  0.891080
+1  Facility  0.056661
+2   Loyalty  0.052259",Positive,"{'Positive': 0.984973669052124, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R23,"and gave great recommendations for food, shopping and let us leave our bags after check out!","diny was extremely helpful and gave great recommendations for food, shopping and let us leave our bags after check out!.","food, shopping, bags","great, good",Service,"[('Facility', 0.36277300119400024), ('Amenity', 0.3240028917789459), ('Service', 0.23632320761680603)]","   category     score
+0   Service  0.896992
+1   Amenity  0.052813
+2  Facility  0.050195",Positive,"{'Positive': 0.8840224146842957, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R24,lovely stay,"lovely stay, great host",,lovely,Service,"[('Loyalty', 0.1803932636976242), ('Facility', 0.14228835701942444), ('Service', 0.13994303345680237)]","   category     score
+0   Service  0.798031
+1  Facility  0.104719
+2   Loyalty  0.097251",Positive,"{'Positive': 0.9941877126693726, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R24,great host,"lovely stay, great host",,great,Service,"[('Service', 0.12286493182182312), ('Facility', 0.11049039661884308), ('Loyalty', 0.06955797970294952)]","   category     score
+0   Service  0.847856
+1  Facility  0.084778
+2   Loyalty  0.067367",Positive,"{'Positive': 0.9848113059997559, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R24,great place,great place and location.,,great,Service,"[('Facility', 0.18933965265750885), ('Service', 0.12099096179008484), ('Experience', 0.08641223609447479)]","     category     score
+0     Service  0.835760
+1  Experience  0.088754
+2    Facility  0.075486",Positive,"{'Positive': 0.9912354946136475, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R24,and location,great place and location.,,,Service,"[('Facility', 0.18292246758937836), ('Amenity', 0.10051364451646805), ('Service', 0.01733819767832756)]","   category     score
+0   Service  0.867565
+1   Amenity  0.070190
+2  Facility  0.062245",Neutral,"{'Neutral': 0.9382178783416748, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R24,who provided us with information on the area by whatsapp,added bonus was meeting the owner who provided us with information on the area by whatsapp.,,,Service,"[('Facility', 0.03609533980488777), ('Amenity', 0.023104047402739525), ('Service', -0.0005613209214061499)]","   category     score
+0   Service  0.886595
+1   Amenity  0.073879
+2  Facility  0.039527",Neutral,"{'Neutral': 0.8611434102058411, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R24,great stay,great stay and will be back!.,,great,Service,"[('Loyalty', 0.17164979875087738), ('Service', 0.10880409181118011), ('Experience', 0.10612144321203232)]","     category     score
+0     Service  0.808057
+1     Loyalty  0.112419
+2  Experience  0.079524",Positive,"{'Positive': 0.9949524402618408, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R24,will be back!,great stay and will be back!.,,back,Service,"[('Loyalty', 0.08520515263080597), ('Amenity', -0.017054283991456032), ('Service', -0.0219193734228611)]","  category     score
+0  Service  0.834035
+1  Loyalty  0.083794
+2  Amenity  0.082172",Positive,"{'Positive': 0.9375398755073547, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R24,i'm not doing anything.,i'm not doing anything.,,,Service,"[('Amenity', 0.02785150147974491), ('Service', 0.024521613493561745), ('Loyalty', -0.006296929903328419)]","  category     score
+0  Service  0.814310
+1  Loyalty  0.095547
+2  Amenity  0.090143",Positive,"{'Positive': 0.6986555457115173, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R25,happy stay,happy stay and will come back in the future.,,happy,Service,"[('Loyalty', 0.16323985159397125), ('Service', 0.07663673162460327), ('Amenity', 0.05591718107461929)]","  category     score
+0  Service  0.835372
+1  Loyalty  0.092508
+2  Amenity  0.072120",Positive,"{'Positive': 0.9676016569137573, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R25,the host contacted me a few days before my arrival,the host contacted me a few days before my arrival and meet me at the apartment lobby.,,,Service,"[('Loyalty', 0.0950794443488121), ('Service', 0.08773431181907654), ('Experience', 0.06686297804117203)]","     category     score
+0     Service  0.862794
+1  Experience  0.073836
+2     Loyalty  0.063370",Neutral,"{'Neutral': 0.8347132205963135, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R25,the check in is extremely smooth.,the check in is extremely smooth.,check in,extremely smooth,Service,"[('Facility', 0.04242909699678421), ('Service', -0.007485732436180115), ('Experience', -0.00803578831255436)]","     category     score
+0     Service  0.852866
+1  Experience  0.103643
+2    Facility  0.043491",Positive,"{'Positive': 0.8873434662818909, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R25,everything is good.,everything is good.,,good,Service,"[('Service', 0.09526052325963974), ('Loyalty', 0.05422195792198181), ('Facility', 0.0174020454287529)]","   category     score
+0   Service  0.825184
+1  Facility  0.092046
+2   Loyalty  0.082770",Positive,"{'Positive': 0.8022190928459167, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R26,great location,"great location, beautiful views and excellent host!",,great,Service,"[('Facility', 0.13616260886192322), ('Service', 0.0368027538061142), ('Experience', 0.02511407621204853)]","     category     score
+0     Service  0.851026
+1  Experience  0.076063
+2    Facility  0.072911",Positive,"{'Positive': 0.9776260256767273, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R26,excellent host!,"great location, beautiful views and excellent host!",,excellent,Service,"[('Service', 0.1436939537525177), ('Facility', 0.13228006660938263), ('Experience', 0.07482220232486725)]","     category     score
+0     Service  0.845247
+1    Facility  0.096218
+2  Experience  0.058535",Positive,"{'Positive': 0.9621917605400085, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R26,our stay at diny's aparthotel was exceptional,"our stay at diny's aparthotel was exceptional! the room comes perfectly equipped for city exploration, and the skyline view is stunning.","stay, diny's aparthotel",exceptional,Service,"[('Service', 0.14796936511993408), ('Facility', 0.11743514239788055), ('Branding', 0.10821476578712463)]","   category     score
+0   Service  0.640483
+1  Branding  0.326268
+2  Facility  0.033249",Positive,"{'Positive': 0.9806693196296692, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R26,just outside the bustling city center,we really liked the location just outside the bustling city center but with everything accessible within minutes by grab.,,,Service,"[('Facility', 0.14302828907966614), ('Amenity', 0.02391294576227665), ('Service', -0.04367908090353012)]","   category     score
+0   Service  0.868327
+1   Amenity  0.067060
+2  Facility  0.064613",Positive,"{'Positive': 0.5021924376487732, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R26,what truly sets this place apart is diny himself.,what truly sets this place apart is diny himself.,diny,,Service,"[('Facility', 0.17230811715126038), ('Service', 0.16321083903312683), ('Branding', 0.13077367842197418)]","   category     score
+0   Service  0.665822
+1  Branding  0.290907
+2  Facility  0.043271",Neutral,"{'Neutral': 0.558769702911377, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R26,among all hosts during our three week vietnam journey,"among all hosts during our three week vietnam journey, his hospitality was unmatched.",,,Service,"[('Service', 0.11396554857492447), ('Loyalty', 0.10251309722661972), ('Facility', 0.07107376307249069)]","   category     score
+0   Service  0.897018
+1  Facility  0.058724
+2   Loyalty  0.044258",Neutral,"{'Neutral': 0.9595704674720764, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R26,his hospitality was unmatched,"among all hosts during our three week vietnam journey, his hospitality was unmatched.",hospitality,unmatched,Service,"[('Service', 0.4090205132961273), ('Loyalty', 0.3487641215324402), ('Experience', 0.336442232131958)]","     category     score
+0     Service  0.885395
+1  Experience  0.060455
+2     Loyalty  0.054151",Positive,"{'Positive': 0.9883458614349365, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R26,it's no wonder we chose to return for a second stay,it's no wonder we chose to return for a second stay towards the end of our trip.,,good,Service,"[('Loyalty', 0.23560431599617004), ('Experience', 0.08933308720588684), ('Service', 0.08468322455883026)]","     category     score
+0     Service  0.832372
+1  Experience  0.100495
+2     Loyalty  0.067133",Positive,"{'Positive': 0.939437985420227, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R26,towards the end of our trip,it's no wonder we chose to return for a second stay towards the end of our trip.,,,Service,"[('Service', 0.10488539934158325), ('Loyalty', 0.1010759249329567), ('Facility', 0.09687907993793488)]","   category     score
+0   Service  0.865212
+1   Loyalty  0.081339
+2  Facility  0.053449",Neutral,"{'Neutral': 0.6807242631912231, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R26,"for anyone visiting hcmc, we cannot recommend diny's aparthotel highly enough!.","for anyone visiting hcmc, we cannot recommend diny's aparthotel highly enough!.",diny's aparthotel,highly,Service,"[('Facility', 0.22968091070652008), ('Service', 0.1049356609582901), ('Branding', 0.10370422899723053)]","   category     score
+0   Service  0.644990
+1  Branding  0.332571
+2  Facility  0.022440",Positive,"{'Positive': 0.9369608759880066, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R27,a relaxing stay.,a relaxing stay.,,relaxing,Service,"[('Facility', 0.29362836480140686), ('Experience', 0.20615021884441376), ('Service', 0.20142626762390137)]","     category     score
+0     Service  0.858510
+1    Facility  0.093074
+2  Experience  0.048416",Positive,"{'Positive': 0.9593814611434937, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R27,manager host was very friendly,manager host was very friendly and helpful.,manager host,very friendly,Service,"[('Service', 0.2507333755493164), ('Facility', 0.21284529566764832), ('Experience', 0.17481231689453125)]","     category     score
+0     Service  0.874544
+1  Experience  0.072618
+2    Facility  0.052838",Positive,"{'Positive': 0.9874590635299683, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R27,and helpful,manager host was very friendly and helpful.,,helpful,Service,"[('Service', 0.08964435756206512), ('Loyalty', 0.08513124287128448), ('Facility', 0.06075555458664894)]","   category     score
+0   Service  0.868640
+1  Facility  0.067029
+2   Loyalty  0.064332",Positive,"{'Positive': 0.996145486831665, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R27,the view from the room was great.,the view from the room was great.,room,great,Service,"[('Facility', 0.42632153630256653), ('Experience', 0.3337741196155548), ('Service', 0.1734076887369156)]","     category     score
+0     Service  0.884884
+1  Experience  0.073311
+2    Facility  0.041804",Positive,"{'Positive': 0.8320236206054688, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R27,because there wasn't much sun in the afternoon,i didn't have to apply sunblock because there wasn't much sun in the afternoon.,,wasn't much sun,Service,"[('Service', 0.050912994891405106), ('Amenity', 0.04683912917971611), ('Facility', 0.030476339161396027)]","   category     score
+0   Service  0.866748
+1   Amenity  0.070839
+2  Facility  0.062414",Neutral,"{'Neutral': 0.3874276876449585, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R28,excellent value for a stay in an upscale neighborhood in the heart of saigon.,excellent value for a stay in an upscale neighborhood in the heart of saigon.,"stay, neighborhood, saigon",excellent value,Service,"[('Facility', 0.34733259677886963), ('Loyalty', 0.2987614870071411), ('Service', 0.27220070362091064)]","   category     score
+0   Service  0.925003
+1  Facility  0.052927
+2   Loyalty  0.022070",Neutral,"{'Neutral': 0.6107785105705261, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R29,clean,unbeatable location. clean.,,clean,Service,"[('Service', 0.06494154036045074), ('Loyalty', 0.06154252961277962), ('Branding', 0.030683526769280434)]","   category     score
+0   Service  0.731628
+1  Branding  0.190414
+2   Loyalty  0.077957",Positive,"{'Positive': 0.9831768274307251, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R29,that suits my type,functional rooms that suits my type.,,suits,Service,"[('Facility', 0.03770124912261963), ('Service', 0.013136673718690872), ('Amenity', 0.0004532081075012684)]","   category     score
+0   Service  0.818245
+1   Amenity  0.108699
+2  Facility  0.073056",Positive,"{'Positive': 0.8510953187942505, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R29,thank you diny for being a wonderful host.,thank you diny for being a wonderful host.,diny,wonderful,Service,"[('Service', 0.2538149058818817), ('Experience', 0.13983021676540375), ('Branding', 0.12179119884967804)]","     category     score
+0     Service  0.623860
+1    Branding  0.296639
+2  Experience  0.079501",Positive,"{'Positive': 0.9067067503929138, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R29,it was nothing.,it was nothing.,,nothing,Service,"[('Service', -0.006824239157140255), ('Amenity', -0.011948555707931519), ('Loyalty', -0.025371992960572243)]","  category     score
+0  Service  0.815060
+1  Amenity  0.098918
+2  Loyalty  0.086022",Neutral,"{'Neutral': 0.7935527563095093, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R29,zilch.,zilch.,,zilch,Service,"[('Service', 0.05139885097742081), ('Loyalty', 0.042909860610961914), ('Branding', 0.028861496597528458)]","   category     score
+0   Service  0.763990
+1  Branding  0.174698
+2   Loyalty  0.061312",Neutral,"{'Neutral': 0.5153647661209106, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R30,perfect place to stay in oh chi minh city,perfect place to stay in oh chi minh city,"place, oh chi minh city",perfect,Service,"[('Facility', 0.3791634142398834), ('Experience', 0.2462189942598343), ('Service', 0.2316049039363861)]","     category     score
+0     Service  0.824389
+1  Experience  0.120133
+2    Facility  0.055478",Positive,"{'Positive': 0.9905146360397339, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R30,everything has been perfect.,everything has been perfect.,,perfect,Service,"[('Service', 0.08208980411291122), ('Loyalty', 0.041404664516448975), ('Branding', 0.021988319233059883)]","   category     score
+0   Service  0.704949
+1  Branding  0.242321
+2   Loyalty  0.052730",Positive,"{'Positive': 0.8552796244621277, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R30,thanks for keeping our luggage till late.,thanks for keeping our luggage till late.,,,Service,"[('Loyalty', 0.07115904986858368), ('Amenity', 0.06853185594081879), ('Service', 0.050770241767168045)]","  category     score
+0  Service  0.889997
+1  Amenity  0.059570
+2  Loyalty  0.050434",Positive,"{'Positive': 0.4754558801651001, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R30,the apartment is very clean,"the apartment is very clean, with all the comfort and well equipped.",apartment,very clean,Service,"[('Facility', 0.3716982901096344), ('Amenity', 0.23928877711296082), ('Service', 0.15627942979335785)]","   category     score
+0   Service  0.881922
+1   Amenity  0.079958
+2  Facility  0.038120",Positive,"{'Positive': 0.9963815212249756, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R30,with all the comfort,"the apartment is very clean, with all the comfort and well equipped.",,comfort,Service,"[('Facility', 0.1071101576089859), ('Service', 0.10458921641111374), ('Experience', 0.06769374758005142)]","     category     score
+0     Service  0.856184
+1    Facility  0.087395
+2  Experience  0.056421",Positive,"{'Positive': 0.9950476884841919, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R30,and well equipped,"the apartment is very clean, with all the comfort and well equipped.",,well equipped,Service,"[('Facility', 0.10010308772325516), ('Amenity', 0.07573109865188599), ('Service', 0.054411664605140686)]","   category     score
+0   Service  0.886957
+1  Facility  0.066019
+2   Amenity  0.047024",Positive,"{'Positive': 0.9941670894622803, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R30,we ll be back soon!.,we ll be back soon!.,,good,Service,"[('Loyalty', 0.11393488943576813), ('Service', 0.011998925358057022), ('Facility', -0.018955383449792862)]","   category     score
+0   Service  0.845975
+1   Loyalty  0.096863
+2  Facility  0.057162",Neutral,"{'Neutral': 0.9602735638618469, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R31,place is nice,place is nice and the owner is great helper,,nice,Service,"[('Facility', 0.2387324869632721), ('Service', 0.13351041078567505), ('Amenity', 0.11893584579229355)]","   category     score
+0   Service  0.841701
+1  Facility  0.094418
+2   Amenity  0.063882",Positive,"{'Positive': 0.9922069907188416, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R31,safe,safe and quite.,,safe,Service,"[('Loyalty', 0.02066074125468731), ('Amenity', 0.01962205581367016), ('Service', -0.01784411445260048)]","  category     score
+0  Service  0.831345
+1  Loyalty  0.085692
+2  Amenity  0.082963",Positive,"{'Positive': 0.9640053510665894, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R31,and quite,safe and quite.,,,Service,"[('Service', 0.051372431218624115), ('Loyalty', 0.045102719217538834), ('Amenity', 0.010377646423876286)]","  category     score
+0  Service  0.852586
+1  Amenity  0.075733
+2  Loyalty  0.071681",Positive,"{'Positive': 0.9950165152549744, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R32,perfect sport in saigon,perfect sport in saigon,sport,perfect,Service,"[('Service', 0.11304599791765213), ('Facility', 0.1034470647573471), ('Experience', 0.09484154731035233)]","     category     score
+0     Service  0.931155
+1  Experience  0.036850
+2    Facility  0.031995",Positive,"{'Positive': 0.918694019317627, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R32,the host was very helpful,the host was very helpful and checked in on us during our stay.,host,very helpful,Service,"[('Service', 0.21465393900871277), ('Facility', 0.1841220259666443), ('Loyalty', 0.14842137694358826)]","   category     score
+0   Service  0.883427
+1  Facility  0.072148
+2   Loyalty  0.044425",Positive,"{'Positive': 0.988132655620575, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R32,and checked in on us during our stay,the host was very helpful and checked in on us during our stay.,,,Service,"[('Loyalty', 0.1454746127128601), ('Facility', 0.12127713859081268), ('Service', 0.10363040119409561)]","   category     score
+0   Service  0.906111
+1  Facility  0.052843
+2   Loyalty  0.041046",Positive,"{'Positive': 0.9648901224136353, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R32,he was very kind,he was very kind letting us check out late due to a late flight.,,very kind,Service,"[('Service', 0.045903824269771576), ('Loyalty', 0.04107692465186119), ('Experience', -0.01384937483817339)]","     category     score
+0     Service  0.877386
+1  Experience  0.066844
+2     Loyalty  0.055770",Positive,"{'Positive': 0.994392454624176, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R32,letting us check out late due to a late flight,he was very kind letting us check out late due to a late flight.,flight,,Service,"[('Loyalty', 0.15168163180351257), ('Amenity', 0.12362199276685715), ('Service', 0.10684892535209656)]","  category     score
+0  Service  0.913794
+1  Loyalty  0.058266
+2  Amenity  0.027940",Negative,"{'Negative': 0.9165383577346802, 'Positive': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R32,the facilities at the manor 2 were perfect,the facilities at the manor 2 were perfect for a weeks stay.,"facilities, manor 2",perfect,Service,"[('Facility', 0.4830000400543213), ('Amenity', 0.2766598165035248), ('Service', 0.2563084065914154)]","   category     score
+0   Service  0.885058
+1   Amenity  0.079090
+2  Facility  0.035853",Positive,"{'Positive': 0.9883098602294922, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R32,for a weeks stay,the facilities at the manor 2 were perfect for a weeks stay.,,,Service,"[('Loyalty', 0.1448674350976944), ('Facility', 0.0951944887638092), ('Service', 0.06124826893210411)]","   category     score
+0   Service  0.837111
+1  Facility  0.085540
+2   Loyalty  0.077349",Neutral,"{'Neutral': 0.964936375617981, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R32,and had everything we needed,the apartment was comfortable and had everything we needed.,,good,Service,"[('Facility', 0.06645207107067108), ('Service', 0.03792084753513336), ('Amenity', 0.011143779382109642)]","   category     score
+0   Service  0.884211
+1   Amenity  0.060193
+2  Facility  0.055596",Positive,"{'Positive': 0.9930253028869629, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R32,never busy,"the rooftop pool was great, never busy.",,never busy,Service,"[('Service', 0.02849777787923813), ('Facility', 0.026453189551830292), ('Amenity', 0.024076376110315323)]","   category     score
+0   Service  0.854063
+1  Facility  0.080979
+2   Amenity  0.064958",Positive,"{'Positive': 0.9543694853782654, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R32,great location,great location with 2 minimarkets close by for essentials.,,great,Service,"[('Facility', 0.13616260886192322), ('Service', 0.0368027538061142), ('Experience', 0.02511407621204853)]","     category     score
+0     Service  0.851026
+1  Experience  0.076063
+2    Facility  0.072911",Positive,"{'Positive': 0.9776260256767273, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R32,the photos are exactly how the place looks as well.,the photos are exactly how the place looks as well.,"photos, place","exactly, good",Service,"[('Facility', 0.4578658640384674), ('Branding', 0.2843584418296814), ('Service', 0.25979796051979065)]","   category     score
+0   Service  0.483669
+1  Branding  0.483512
+2  Facility  0.032819",Positive,"{'Positive': 0.9197006225585938, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R33,it's perfect.,it's perfect.,,perfect,Service,"[('Service', 0.025928722694516182), ('Facility', 0.0022702552378177643), ('Amenity', -0.0037033958360552788)]","   category     score
+0   Service  0.834982
+1  Facility  0.084210
+2   Amenity  0.080808",Positive,"{'Positive': 0.9769178628921509, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R33,"cute, clean room","cute, clean room and fully functional kitchen with nice views.",room,"cute, clean",Service,"[('Facility', 0.40036165714263916), ('Experience', 0.19009113311767578), ('Service', 0.16420765221118927)]","     category     score
+0     Service  0.878799
+1  Experience  0.075969
+2    Facility  0.045232",Positive,"{'Positive': 0.9941579103469849, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R33,the host was extremely kind,the host was extremely kind and accommodating.,host,extremely kind,Service,"[('Service', 0.2133166640996933), ('Experience', 0.18821385502815247), ('Facility', 0.17869670689105988)]","     category     score
+0     Service  0.872995
+1    Facility  0.073792
+2  Experience  0.053213",Positive,"{'Positive': 0.9893475770950317, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R33,but fine for two people,room is a bit small but fine for two people.,,fine,Service,"[('Loyalty', 0.047221262007951736), ('Service', 0.03846880421042442), ('Amenity', 0.017589235678315163)]","  category     score
+0  Service  0.847057
+1  Loyalty  0.082923
+2  Amenity  0.070019",Neutral,"{'Neutral': 0.5359381437301636, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R34,definitely place to stay.,definitely place to stay.,,definitely place to stay,Service,"[('Facility', 0.22075656056404114), ('Service', 0.1135530173778534), ('Amenity', 0.10015852004289627)]","   category     score
+0   Service  0.885652
+1  Facility  0.065303
+2   Amenity  0.049045",Positive,"{'Positive': 0.9843974709510803, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R34,great hospitality,great hospitality and room was neet and cozy as well.,,great,Service,"[('Service', 0.32421156764030457), ('Facility', 0.2825199365615845), ('Experience', 0.2501737177371979)]","     category     score
+0     Service  0.842186
+1    Facility  0.081576
+2  Experience  0.076238",Positive,"{'Positive': 0.9931272268295288, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R34,room was neet and cozy as well,great hospitality and room was neet and cozy as well.,room,"neet, cozy",Service,"[('Facility', 0.4782223403453827), ('Experience', 0.2692094147205353), ('Service', 0.19133780896663666)]","     category     score
+0     Service  0.871306
+1  Experience  0.082494
+2    Facility  0.046200",Positive,"{'Positive': 0.9979971051216125, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R35,very good.,very good.,,good,Service,"[('Service', 0.05774358659982681), ('Loyalty', 0.04291031137108803), ('Facility', -0.007468335330486298)]","   category     score
+0   Service  0.853610
+1  Facility  0.082089
+2   Loyalty  0.064301",Positive,"{'Positive': 0.991111695766449, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R35,diny is very accommodating,diny is very accommodating and helpful.,diny,very accommodating,Service,"[('Service', 0.14231090247631073), ('Facility', 0.07644515484571457), ('Experience', 0.05369333177804947)]","     category     score
+0     Service  0.872784
+1  Experience  0.086797
+2    Facility  0.040419",Positive,"{'Positive': 0.9896734952926636, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R35,and helpful,diny is very accommodating and helpful.,,helpful,Service,"[('Service', 0.08964435756206512), ('Loyalty', 0.08513124287128448), ('Facility', 0.06075555458664894)]","   category     score
+0   Service  0.868640
+1  Facility  0.067029
+2   Loyalty  0.064332",Positive,"{'Positive': 0.996145486831665, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R35,recommended .,recommended .,,recommended,Service,"[('Facility', 0.022445762529969215), ('Service', 0.018066197633743286), ('Loyalty', 0.012969663366675377)]","   category     score
+0   Service  0.810152
+1  Facility  0.105185
+2   Loyalty  0.084662",Positive,"{'Positive': 0.9889322519302368, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R36,most amazing stay,"most amazing stay. beautiful apartment, good acnice.",,amazing,Service,"[('Facility', 0.1885909140110016), ('Experience', 0.16825664043426514), ('Service', 0.13944979012012482)]","     category     score
+0     Service  0.851121
+1    Facility  0.082328
+2  Experience  0.066551",Positive,"{'Positive': 0.9956510663032532, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R36,good acnice,"most amazing stay. beautiful apartment, good acnice.",,good,Service,"[('Loyalty', 0.03865164518356323), ('Service', 0.018535353243350983), ('Facility', 0.0068802544847130775)]","   category     score
+0   Service  0.808163
+1  Facility  0.096190
+2   Loyalty  0.095647",Positive,"{'Positive': 0.9976024031639099, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R36,everything.,everything.,,,Service,"[('Facility', 0.10239243507385254), ('Amenity', 0.07987383008003235), ('Service', 0.07140294462442398)]","   category     score
+0   Service  0.852398
+1  Facility  0.089409
+2   Amenity  0.058193",Positive,"{'Positive': 0.8033146858215332, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R37,perfect,perfect. i ll always stay here when i come to ho chi minh.,,perfect,Service,"[('Loyalty', 0.038740117102861404), ('Service', 0.03733459860086441), ('Facility', 0.024791859090328217)]","   category     score
+0   Service  0.825244
+1   Loyalty  0.089376
+2  Facility  0.085380",Positive,"{'Positive': 0.9956386685371399, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R37,i ll always stay here when i come to ho chi minh,perfect. i ll always stay here when i come to ho chi minh.,,,Service,"[('Loyalty', 0.1376809924840927), ('Service', 0.13622590899467468), ('Experience', 0.09893545508384705)]","     category     score
+0     Service  0.806885
+1  Experience  0.098731
+2     Loyalty  0.094384",Positive,"{'Positive': 0.8657132387161255, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R37,and am a genius l3 member of booking,i live in hotels around the world and am a genius l3 member of booking.,,,Service,"[('Service', 0.1861695796251297), ('Facility', 0.1680794358253479), ('Loyalty', 0.1544998288154602)]","   category     score
+0   Service  0.895799
+1   Loyalty  0.053186
+2  Facility  0.051015",Positive,"{'Positive': 0.9467854499816895, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R37,with.,with.,,,Service,"[('Loyalty', 0.007763010915368795), ('Amenity', -0.016299134120345116), ('Service', -0.016548853367567062)]","  category     score
+0  Service  0.842785
+1  Loyalty  0.086618
+2  Amenity  0.070597",Neutral,"{'Neutral': 0.8999273777008057, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R37,host is gracious,"host is gracious, kind and speaks great english unusual in the city .",host,gracious,Service,"[('Service', 0.2020127922296524), ('Branding', 0.16804268956184387), ('Experience', 0.14901839196681976)]","     category     score
+0     Service  0.754851
+1    Branding  0.172070
+2  Experience  0.073079",Positive,"{'Positive': 0.9471597075462341, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R37,kind,"host is gracious, kind and speaks great english unusual in the city .",,kind,Service,"[('Loyalty', 0.050824765115976334), ('Service', 0.03057062067091465), ('Amenity', -0.008663387037813663)]","  category     score
+0  Service  0.830603
+1  Loyalty  0.086310
+2  Amenity  0.083087",Positive,"{'Positive': 0.9933391213417053, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R37,nothing negative to say,"nothing negative to say, especially when you consider the price point.",,negative,Service,"[('Loyalty', 0.06817863136529922), ('Service', 0.06563623249530792), ('Branding', 0.0012187138199806213)]","   category     score
+0   Service  0.713317
+1  Branding  0.193923
+2   Loyalty  0.092761",Positive,"{'Positive': 0.9748196601867676, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R37,especially when you consider the price point,"nothing negative to say, especially when you consider the price point.",,,Service,"[('Loyalty', 0.10465170443058014), ('Service', 0.06172529608011246), ('Branding', 0.05925978720188141)]","   category     score
+0   Service  0.727394
+1  Branding  0.218215
+2   Loyalty  0.054391",Positive,"{'Positive': 0.9642757773399353, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R38,calming,calming and classy,,calming,Service,"[('Facility', 0.055929020047187805), ('Amenity', 0.04332318156957626), ('Service', 0.02644025906920433)]","   category     score
+0   Service  0.818281
+1  Facility  0.097877
+2   Amenity  0.083842",Positive,"{'Positive': 0.9904884099960327, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R38,classy,calming and classy,,classy,Service,"[('Service', 0.05477393418550491), ('Loyalty', 0.03442027419805527), ('Branding', 0.028110619634389877)]","   category     score
+0   Service  0.720136
+1  Branding  0.186127
+2   Loyalty  0.093737",Positive,"{'Positive': 0.9950710535049438, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R38,it was nothing.,it was nothing.,,nothing,Service,"[('Service', -0.006824239157140255), ('Amenity', -0.011948555707931519), ('Loyalty', -0.025371992960572243)]","  category     score
+0  Service  0.815060
+1  Amenity  0.098918
+2  Loyalty  0.086022",Neutral,"{'Neutral': 0.7935527563095093, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R39,the host is extremely friendly,the host is extremely friendly and helpful.,host,extremely friendly,Service,"[('Service', 0.23203715682029724), ('Facility', 0.22688309848308563), ('Experience', 0.2153303474187851)]","     category     score
+0     Service  0.843599
+1    Facility  0.084149
+2  Experience  0.072252",Positive,"{'Positive': 0.9882304668426514, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R39,and helpful,the host is extremely friendly and helpful.,,helpful,Service,"[('Service', 0.08964435756206512), ('Loyalty', 0.08513124287128448), ('Facility', 0.06075555458664894)]","   category     score
+0   Service  0.868640
+1  Facility  0.067029
+2   Loyalty  0.064332",Positive,"{'Positive': 0.996145486831665, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R39,the location is good,"the location is good with easy access to restaurants, shops, and public transportation.",location,good,Service,"[('Facility', 0.23484094440937042), ('Amenity', 0.08825743198394775), ('Service', 0.06633730977773666)]","   category     score
+0   Service  0.799337
+1   Amenity  0.161031
+2  Facility  0.039632",Positive,"{'Positive': 0.9895330667495728, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R39,"with easy access to restaurants, shops, and public transportation","the location is good with easy access to restaurants, shops, and public transportation.","restaurants, shops, public transportation",easy access,Service,"[('Amenity', 0.40482792258262634), ('Facility', 0.3968534469604492), ('Service', 0.2095978558063507)]","   category     score
+0   Service  0.844111
+1   Amenity  0.087951
+2  Facility  0.067938",Positive,"{'Positive': 0.9646269083023071, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R39,we'd definitely come back for next time.,we'd definitely come back for next time.,,definitely,Service,"[('Loyalty', 0.10585040599107742), ('Service', -0.004381557926535606), ('Facility', -0.017303550615906715)]","   category     score
+0   Service  0.876969
+1   Loyalty  0.074611
+2  Facility  0.048421",Positive,"{'Positive': 0.8188299536705017, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R40,very good.,very good.,,good,Service,"[('Service', 0.05774358659982681), ('Loyalty', 0.04291031137108803), ('Facility', -0.007468335330486298)]","   category     score
+0   Service  0.853610
+1  Facility  0.082089
+2   Loyalty  0.064301",Positive,"{'Positive': 0.991111695766449, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R40,very friendly host,"very friendly host,great view of the city,comfortable and close to most main attractions of the city.",host,very friendly,Service,"[('Service', 0.23246483504772186), ('Facility', 0.20626787841320038), ('Experience', 0.20086050033569336)]","     category     score
+0     Service  0.831826
+1    Facility  0.107404
+2  Experience  0.060770",Positive,"{'Positive': 0.9804798364639282, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R41,new old world saigon,new old world saigon,,,Service,"[('Service', 0.061822909861803055), ('Experience', 0.04689925163984299), ('Loyalty', 0.042463384568691254)]","     category     score
+0     Service  0.850165
+1     Loyalty  0.075481
+2  Experience  0.074354",Neutral,"{'Neutral': 0.7815775871276855, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R41,the manor is a bit of an institution in saigon,"the manor is a bit of an institution in saigon, one of the first residence blocks built for the upmarket segment of binh thanh.",manor,a bit of an institution,Service,"[('Facility', 0.39815399050712585), ('Service', 0.26892921328544617), ('Amenity', 0.26569491624832153)]","   category     score
+0   Service  0.804188
+1   Amenity  0.136750
+2  Facility  0.059063",Neutral,"{'Neutral': 0.7403016090393066, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R41,in some ways it is starting to show its age,in some ways it is starting to show its age in general wear and tear but the host here has done a wonderful job of restoring the place.,hotel,starting to show its age,Service,"[('Facility', 0.4409412741661072), ('Experience', 0.37269002199172974), ('Service', 0.3525344729423523)]","     category     score
+0     Service  0.869145
+1  Experience  0.085707
+2    Facility  0.045148",Negative,"{'Negative': 0.9655947089195251, 'Positive': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R41,in general wear and tear,in some ways it is starting to show its age in general wear and tear but the host here has done a wonderful job of restoring the place.,,"good, bad",Service,"[('Loyalty', 0.06796352565288544), ('Service', 0.04699685424566269), ('Amenity', 0.02711498737335205)]","  category     score
+0  Service  0.827484
+1  Loyalty  0.093998
+2  Amenity  0.078518",Neutral,"{'Neutral': 0.9324475526809692, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R41,plenty of strong hot water for the shower,"plenty of strong hot water for the shower, all the necessary kitchenware to be able to cook reheat simple meals, netflix on the tv, both a washing machine and dryer, a vacuum cleaner, full size fridge, river and city views, a lively market place in the warren behind the residences and a host that cannot do enough to make sure you are getting the value that is advertised.",hot water,"strong, plenty",Service,"[('Facility', 0.20045188069343567), ('Amenity', 0.100850909948349), ('Service', 0.09566527605056763)]","   category     score
+0   Service  0.832338
+1   Amenity  0.109340
+2  Facility  0.058322",Positive,"{'Positive': 0.9854549169540405, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R41,all the necessary kitchenware to be able to cook reheat simple meals,"plenty of strong hot water for the shower, all the necessary kitchenware to be able to cook reheat simple meals, netflix on the tv, both a washing machine and dryer, a vacuum cleaner, full size fridge, river and city views, a lively market place in the warren behind the residences and a host that cannot do enough to make sure you are getting the value that is advertised.",,,Service,"[('Facility', 0.12914976477622986), ('Service', 0.12559032440185547), ('Amenity', 0.09307263046503067)]","   category     score
+0   Service  0.848875
+1   Amenity  0.102093
+2  Facility  0.049032",Positive,"{'Positive': 0.9441514611244202, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R41,both a washing machine and dryer,"plenty of strong hot water for the shower, all the necessary kitchenware to be able to cook reheat simple meals, netflix on the tv, both a washing machine and dryer, a vacuum cleaner, full size fridge, river and city views, a lively market place in the warren behind the residences and a host that cannot do enough to make sure you are getting the value that is advertised.","washing machine, dryer",,Service,"[('Facility', 0.14768432080745697), ('Amenity', 0.07175485044717789), ('Service', 0.013141612522304058)]","   category     score
+0   Service  0.766417
+1   Amenity  0.169265
+2  Facility  0.064318",Neutral,"{'Neutral': 0.96946781873703, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R41,full size fridge,"plenty of strong hot water for the shower, all the necessary kitchenware to be able to cook reheat simple meals, netflix on the tv, both a washing machine and dryer, a vacuum cleaner, full size fridge, river and city views, a lively market place in the warren behind the residences and a host that cannot do enough to make sure you are getting the value that is advertised.",fridge,,Service,"[('Facility', 0.28717997670173645), ('Service', 0.14623995125293732), ('Amenity', 0.12312132120132446)]","   category     score
+0   Service  0.865343
+1   Amenity  0.081015
+2  Facility  0.053642",Positive,"{'Positive': 0.9183300733566284, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R41,a host that cannot do enough to make sure you are getting the value that is advertised,"plenty of strong hot water for the shower, all the necessary kitchenware to be able to cook reheat simple meals, netflix on the tv, both a washing machine and dryer, a vacuum cleaner, full size fridge, river and city views, a lively market place in the warren behind the residences and a host that cannot do enough to make sure you are getting the value that is advertised.",host,"cannot do enough, bad",Service,"[('Loyalty', 0.29167893528938293), ('Branding', 0.29024842381477356), ('Service', 0.2731213867664337)]","   category     score
+0   Service  0.647911
+1  Branding  0.309424
+2   Loyalty  0.042665",Negative,"{'Negative': 0.7096385955810547, 'Positive': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R41,nothing really.,nothing really.,,"nothing, really",Service,"[('Facility', 0.05914471670985222), ('Service', 0.05435844510793686), ('Amenity', 0.05272796005010605)]","   category     score
+0   Service  0.817586
+1   Amenity  0.114941
+2  Facility  0.067473",Neutral,"{'Neutral': 0.8880006074905396, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R41,any problems were immediately remedied by dinh.,any problems were immediately remedied by dinh.,problems,immediately remedied by dinh,Service,"[('Service', 0.1007547676563263), ('Facility', 0.02219559997320175), ('Experience', -0.016527973115444183)]","     category     score
+0     Service  0.930243
+1  Experience  0.043302
+2    Facility  0.026455",Positive,"{'Positive': 0.8522478938102722, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R42,great stay,great stay. awesome location,,great,Service,"[('Loyalty', 0.17164979875087738), ('Service', 0.10880409181118011), ('Experience', 0.10612144321203232)]","     category     score
+0     Service  0.808057
+1     Loyalty  0.112419
+2  Experience  0.079524",Positive,"{'Positive': 0.9949524402618408, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R42,"everything, great location, diny was super friendly and communicative.","everything, great location, diny was super friendly and communicative.",location,great,Service,"[('Facility', 0.25509408116340637), ('Service', 0.21938106417655945), ('Experience', 0.19014887511730194)]","     category     score
+0     Service  0.948591
+1  Experience  0.032109
+2    Facility  0.019300",Positive,"{'Positive': 0.8702542781829834, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R42,check in was a breeze.,check in was a breeze.,,good,Service,"[('Facility', 0.07574731111526489), ('Service', 0.045277196913957596), ('Amenity', 0.036749813705682755)]","   category     score
+0   Service  0.905928
+1   Amenity  0.047580
+2  Facility  0.046492",Positive,"{'Positive': 0.9455708265304565, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R42,i'm not doing anything.,i'm not doing anything.,,,Service,"[('Amenity', 0.02785150147974491), ('Service', 0.024521613493561745), ('Loyalty', -0.006296929903328419)]","  category     score
+0  Service  0.814310
+1  Loyalty  0.095547
+2  Amenity  0.090143",Positive,"{'Positive': 0.6986555457115173, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R43,very good.,very good.,,good,Service,"[('Service', 0.05774358659982681), ('Loyalty', 0.04291031137108803), ('Facility', -0.007468335330486298)]","   category     score
+0   Service  0.853610
+1  Facility  0.082089
+2   Loyalty  0.064301",Positive,"{'Positive': 0.991111695766449, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R43,excellent location,"excellent location, amazing view from the rooftop pool close to the city center and right beside a neighbourhood with lots of local street food.",location,excellent,Service,"[('Facility', 0.23322433233261108), ('Experience', 0.13738320767879486), ('Service', 0.07842446863651276)]","     category     score
+0     Service  0.890316
+1  Experience  0.059609
+2    Facility  0.050075",Positive,"{'Positive': 0.9908636212348938, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R43,the owner was super helpful and friendly,"the owner was super helpful and friendly, and the apartment was perfect!.",owner,"super helpful, friendly",Service,"[('Loyalty', 0.14951276779174805), ('Branding', 0.10975263267755508), ('Service', 0.07142627984285355)]","   category     score
+0   Service  0.760342
+1  Branding  0.201320
+2   Loyalty  0.038338",Positive,"{'Positive': 0.9928265810012817, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R44,good for family vacation.,good for family vacation.,,good,Service,"[('Facility', 0.17698386311531067), ('Service', 0.169560968875885), ('Amenity', 0.1222192794084549)]","   category     score
+0   Service  0.864975
+1  Facility  0.071412
+2   Amenity  0.063614",Positive,"{'Positive': 0.7111200094223022, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R44,i'm not doing anything.,i'm not doing anything.,,,Service,"[('Amenity', 0.02785150147974491), ('Service', 0.024521613493561745), ('Loyalty', -0.006296929903328419)]","  category     score
+0  Service  0.814310
+1  Loyalty  0.095547
+2  Amenity  0.090143",Positive,"{'Positive': 0.6986555457115173, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R45,great place to stay,"great place to stay, a short ride into d1.",place,great,Service,"[('Facility', 0.4491466283798218), ('Experience', 0.3044061064720154), ('Service', 0.263629674911499)]","     category     score
+0     Service  0.851115
+1  Experience  0.084497
+2    Facility  0.064388",Positive,"{'Positive': 0.9963296055793762, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R45,apartment is well appointed with cooking facilities,"apartment is well appointed with cooking facilities, a washing machine and dryer for an independent stay if you fancy that.","apartment, cooking facilities",well appointed,Service,"[('Facility', 0.545081377029419), ('Service', 0.3422527015209198), ('Amenity', 0.33998385071754456)]","   category     score
+0   Service  0.866443
+1   Amenity  0.091555
+2  Facility  0.042002",Positive,"{'Positive': 0.9937180280685425, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R45,recommend bun bo hue cuu long on vo duy ninh st.,in the rear backstreets there's a neat local market street with some good eating spots recommend bun bo hue cuu long on vo duy ninh st.,,recommend,Service,"[('Service', 0.09908723086118698), ('Loyalty', 0.04898529499769211), ('Experience', 0.04225398600101471)]","     category    score
+0     Service  0.86352
+1  Experience  0.06855
+2     Loyalty  0.06793",Positive,"{'Positive': 0.9257383942604065, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R46,highly recommend for long stay trip,highly recommend for long stay trip. feels like home.,,highly recommend,Service,"[('Facility', 0.1984127163887024), ('Service', 0.15866610407829285), ('Experience', 0.10178042948246002)]","     category     score
+0     Service  0.876527
+1  Experience  0.065691
+2    Facility  0.057782",Positive,"{'Positive': 0.9795655012130737, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R46,mr.,mr.,,,Service,"[('Service', 0.05600544437766075), ('Loyalty', 0.034559473395347595), ('Amenity', 0.01576482318341732)]","  category     score
+0  Service  0.835740
+1  Loyalty  0.089236
+2  Amenity  0.075024",Neutral,"{'Neutral': 0.9545416831970215, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R46,dinh was super friendly,dinh was super friendly and helpful from the start.,dinh,super friendly,Service,"[('Service', 0.06948573142290115), ('Loyalty', 0.025038326159119606), ('Experience', 0.020558536052703857)]","     category     score
+0     Service  0.863318
+1  Experience  0.076217
+2     Loyalty  0.060465",Positive,"{'Positive': 0.9908685684204102, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R46,and helpful from the start,dinh was super friendly and helpful from the start.,,helpful,Service,"[('Loyalty', 0.0773785263299942), ('Service', 0.07486236095428467), ('Facility', 0.07126086950302124)]","   category     score
+0   Service  0.888950
+1   Loyalty  0.056797
+2  Facility  0.054253",Positive,"{'Positive': 0.9962878227233887, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R46,couldn’t ask for more,"couldn t ask for more even though it wasn t on a high floor, the city view was really nice.",,more,Service,"[('Service', 0.04083285480737686), ('Amenity', 0.015004776418209076), ('Facility', 0.011292807757854462)]","   category     score
+0   Service  0.857700
+1   Amenity  0.087237
+2  Facility  0.055063",Positive,"{'Positive': 0.9845772385597229, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R46,even though it wasn’t on a high floor,"couldn t ask for more even though it wasn t on a high floor, the city view was really nice.",,wasn't on a high floor,Service,"[('Facility', 0.08096250146627426), ('Service', 0.017818810418248177), ('Amenity', -0.0060122050344944)]","   category     score
+0   Service  0.869110
+1   Amenity  0.096769
+2  Facility  0.034120",Positive,"{'Positive': 0.7338927388191223, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R46,even the security guards from the management were helpful too.,even the security guards from the management were helpful too.,"security guards, management",helpful,Service,"[('Service', 0.21653211116790771), ('Facility', 0.20796537399291992), ('Amenity', 0.13722161948680878)]","   category     score
+0   Service  0.923310
+1   Amenity  0.047139
+2  Facility  0.029552",Positive,"{'Positive': 0.7791862487792969, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R46,none of them.,none of them.,,none of them,Service,"[('Loyalty', -0.009042283520102501), ('Amenity', -0.03765614330768585), ('Service', -0.0454973466694355)]","  category     score
+0  Service  0.834660
+1  Loyalty  0.087823
+2  Amenity  0.077518",Negative,"{'Negative': 0.5431565046310425, 'Positive': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R47,very friendly,very friendly and helpful host.,,very friendly,Service,"[('Service', 0.08935238420963287), ('Loyalty', 0.08007962256669998), ('Facility', 0.03707418963313103)]","   category     score
+0   Service  0.853374
+1  Facility  0.079172
+2   Loyalty  0.067453",Positive,"{'Positive': 0.9960483908653259, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R47,and helpful host,very friendly and helpful host.,host,helpful,Service,"[('Service', 0.2830025851726532), ('Loyalty', 0.2602912187576294), ('Facility', 0.24173010885715485)]","   category     score
+0   Service  0.815556
+1  Facility  0.108875
+2   Loyalty  0.075569",Positive,"{'Positive': 0.9322458505630493, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R47,100 trustworthy,100 trustworthy and reliable.,,trustworthy,Service,"[('Loyalty', 0.12215858697891235), ('Service', 0.055888183414936066), ('Branding', 0.04443462938070297)]","   category     score
+0   Service  0.717796
+1  Branding  0.210264
+2   Loyalty  0.071941",Positive,"{'Positive': 0.9964725375175476, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R47,and reliable,100 trustworthy and reliable.,,reliable,Service,"[('Loyalty', 0.0871124416589737), ('Service', 0.05648023635149002), ('Facility', 0.055188361555337906)]","   category     score
+0   Service  0.857826
+1  Facility  0.071464
+2   Loyalty  0.070709",Positive,"{'Positive': 0.9954966306686401, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R47,very good communication.,very good communication.,,good,Service,"[('Service', 0.11614963412284851), ('Loyalty', 0.09517771005630493), ('Facility', 0.06615644693374634)]","   category     score
+0   Service  0.838078
+1   Loyalty  0.084804
+2  Facility  0.077118",Positive,"{'Positive': 0.961341381072998, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R47,and many shopping and dining facilities near by,awesome location with stunning nightview and many shopping and dining facilities near by.,,,Service,"[('Facility', 0.3387850522994995), ('Amenity', 0.2273564338684082), ('Service', 0.1587201952934265)]","   category     score
+0   Service  0.914242
+1   Amenity  0.046406
+2  Facility  0.039353",Positive,"{'Positive': 0.973289966583252, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R47,would definitely come back.,would definitely come back.,,definitely,Service,"[('Loyalty', 0.0652308538556099), ('Service', -0.036836281418800354), ('Amenity', -0.05022350698709488)]","  category     score
+0  Service  0.866172
+1  Loyalty  0.075652
+2  Amenity  0.058176",Positive,"{'Positive': 0.8554685115814209, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R47,thanks for everything!.,thanks for everything!.,,,Service,"[('Service', 0.052455805242061615), ('Facility', 0.02799662947654724), ('Amenity', 0.014661481603980064)]","   category     score
+0   Service  0.847516
+1  Facility  0.083594
+2   Amenity  0.068890",Positive,"{'Positive': 0.8203394412994385, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R48,overall i am satisfied,overall i am satisfied for my short time visit,,satisfied,Service,"[('Service', 0.18138647079467773), ('Loyalty', 0.12654778361320496), ('Branding', 0.11557511240243912)]","   category     score
+0   Service  0.631995
+1  Branding  0.283916
+2   Loyalty  0.084089",Positive,"{'Positive': 0.9811623096466064, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R48,for my short time visit,overall i am satisfied for my short time visit,,,Service,"[('Facility', 0.12221474945545197), ('Service', 0.10308897495269775), ('Amenity', 0.08919345587491989)]","   category     score
+0   Service  0.885138
+1  Facility  0.061880
+2   Amenity  0.052982",Neutral,"{'Neutral': 0.5696746706962585, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R48,and made check in very smoothly,property is very clean and owner of the apartment is contacted very early through whatsapp and made check in very smoothly.,check in,smoothly,Service,"[('Facility', 0.06817169487476349), ('Service', 0.048731088638305664), ('Loyalty', 0.026893701404333115)]","   category     score
+0   Service  0.899993
+1   Loyalty  0.063636
+2  Facility  0.036372",Positive,"{'Positive': 0.991439700126648, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R48,highly recommended place for your vacation.,highly recommended place for your vacation.,place,highly recommended,Service,"[('Facility', 0.47739484906196594), ('Amenity', 0.30481085181236267), ('Service', 0.2550623416900635)]","   category     score
+0   Service  0.916476
+1  Facility  0.046117
+2   Amenity  0.037407",Positive,"{'Positive': 0.921768844127655, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R48,number of restaurant are limited,number of restaurant are limited around the proper.,restaurant,,Service,"[('Facility', 0.33490657806396484), ('Amenity', 0.3039263188838959), ('Service', 0.27870437502861023)]","   category     score
+0   Service  0.912214
+1   Amenity  0.066099
+2  Facility  0.021688",Negative,"{'Negative': 0.9581776857376099, 'Positive': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R48,around the proper,number of restaurant are limited around the proper.,,,Service,"[('Facility', 0.1262747049331665), ('Amenity', 0.03764721006155014), ('Service', 0.015970198437571526)]","   category     score
+0   Service  0.829041
+1   Amenity  0.090546
+2  Facility  0.080414",Neutral,"{'Neutral': 0.8833174705505371, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R49,very good.,very good.,,good,Service,"[('Service', 0.05774358659982681), ('Loyalty', 0.04291031137108803), ('Facility', -0.007468335330486298)]","   category     score
+0   Service  0.853610
+1  Facility  0.082089
+2   Loyalty  0.064301",Positive,"{'Positive': 0.991111695766449, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R49,very comfortable,"very comfortable, very quiet.",,very comfortable,Service,"[('Experience', 0.15926647186279297), ('Facility', 0.15254107117652893), ('Service', 0.08606811612844467)]","     category     score
+0     Service  0.850468
+1    Facility  0.087552
+2  Experience  0.061980",Positive,"{'Positive': 0.9972904920578003, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R49,very quiet,"very comfortable, very quiet.",,very quiet,Service,"[('Service', 0.02379501797258854), ('Facility', 0.015198778361082077), ('Loyalty', -0.005448975600302219)]","   category     score
+0   Service  0.819076
+1  Facility  0.098694
+2   Loyalty  0.082230",Positive,"{'Positive': 0.9843767881393433, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R49,friendly support,friendly support and attention.,,friendly support,Service,"[('Loyalty', 0.06750747561454773), ('Service', 0.014119449071586132), ('Amenity', -0.02871212549507618)]","  category     score
+0  Service  0.866342
+1  Loyalty  0.073114
+2  Amenity  0.060544",Positive,"{'Positive': 0.9822829365730286, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R49,my recommendations!.,my recommendations!.,,,Service,"[('Facility', 0.04802437871694565), ('Amenity', 0.04027804732322693), ('Service', 0.019907735288143158)]","   category     score
+0   Service  0.848896
+1  Facility  0.079748
+2   Amenity  0.071356",Positive,"{'Positive': 0.9536670446395874, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R50,very nice stay,very nice stay,,nice,Service,"[('Loyalty', 0.16816143691539764), ('Facility', 0.14089950919151306), ('Service', 0.1374373435974121)]","   category     score
+0   Service  0.807925
+1  Facility  0.097507
+2   Loyalty  0.094568",Positive,"{'Positive': 0.9957876801490784, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R51,very good.,very good.,,good,Service,"[('Service', 0.05774358659982681), ('Loyalty', 0.04291031137108803), ('Facility', -0.007468335330486298)]","   category     score
+0   Service  0.853610
+1  Facility  0.082089
+2   Loyalty  0.064301",Positive,"{'Positive': 0.991111695766449, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R51,dinh is a superamazing host,dinh is a superamazing host who accomodated to all our requests.,dinh,superamazing,Service,"[('Service', 0.15243777632713318), ('Facility', 0.13605834543704987), ('Branding', 0.07495433837175369)]","   category     score
+0   Service  0.713063
+1  Branding  0.236593
+2  Facility  0.050344",Positive,"{'Positive': 0.989982545375824, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R51,who accomodated to all our requests,dinh is a superamazing host who accomodated to all our requests.,,,Service,"[('Service', 0.026386067271232605), ('Loyalty', 0.020426474511623383), ('Facility', -8.679134771227837e-05)]","   category     score
+0   Service  0.927662
+1   Loyalty  0.045048
+2  Facility  0.027291",Positive,"{'Positive': 0.9936601519584656, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R52,very good.,very good.,,good,Service,"[('Service', 0.05774358659982681), ('Loyalty', 0.04291031137108803), ('Facility', -0.007468335330486298)]","   category     score
+0   Service  0.853610
+1  Facility  0.082089
+2   Loyalty  0.064301",Positive,"{'Positive': 0.991111695766449, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R52,the host is great.,the host is great.,host,great,Service,"[('Facility', 0.2265913039445877), ('Service', 0.20106451213359833), ('Experience', 0.16160625219345093)]","     category     score
+0     Service  0.840390
+1  Experience  0.091395
+2    Facility  0.068215",Neutral,"{'Neutral': 0.6503193378448486, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R53,i had a great stay,i had a great stay. the whole renting process was smooth.,,great,Service,"[('Loyalty', 0.18867488205432892), ('Service', 0.1554085612297058), ('Experience', 0.15010283887386322)]","     category     score
+0     Service  0.824882
+1  Experience  0.095188
+2     Loyalty  0.079930",Positive,"{'Positive': 0.9948518872261047, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R53,ac is strong.,ac is strong.,,strong,Service,"[('Facility', 0.046847496181726456), ('Loyalty', 0.026926539838314056), ('Service', 0.012355226092040539)]","   category     score
+0   Service  0.831551
+1  Facility  0.096966
+2   Loyalty  0.071483",Positive,"{'Positive': 0.7006407976150513, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R53,theres all the things you need fridge,"theres all the things you need fridge, microwave, stove, sink, washing drying machine, coffee table, couch and bed.",,,Service,"[('Facility', 0.18807028234004974), ('Service', 0.14659766852855682), ('Amenity', 0.10194653272628784)]","   category     score
+0   Service  0.836947
+1   Amenity  0.128131
+2  Facility  0.034923",Positive,"{'Positive': 0.9933702945709229, 'Negative': 0.0, 'Neutral': 0.0}"
+3000584,9672019_R53,"microwave, stove, sink, washing drying machine, coffee table, couch and bed","theres all the things you need fridge, microwave, stove, sink, washing drying machine, coffee table, couch and bed.","microwave, stove, sink, washing drying machine, coffee table, couch, bed",,Service,"[('Facility', 0.2855997383594513), ('Amenity', 0.13472722470760345), ('Service', 0.10140100866556168)]","   category     score
+0   Service  0.811567
+1   Amenity  0.122588
+2  Facility  0.065845",Neutral,"{'Neutral': 0.9921261072158813, 'Positive': 0.0, 'Negative': 0.0}"
+3000584,9672019_R53,good location,"good location, close to everything.",,good,Service,"[('Facility', 0.14184679090976715), ('Service', 0.035290446132421494), ('Amenity', 0.026165908202528954)]","   category     score
+0   Service  0.852689
+1  Facility  0.076796
+2   Amenity  0.070516",Positive,"{'Positive': 0.9777725338935852, 'Negative': 0.0, 'Neutral': 0.0}"
