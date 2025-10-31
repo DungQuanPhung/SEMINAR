@@ -10,11 +10,11 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f" Using device: {device}")
 
 # ====================== ĐỌC DỮ LIỆU ======================
-goal_path = "goal.xlsx"
-llm_path = "sample_qa.csv"
+goal_path = "70% sample.csv"
+llm_path = "goal.xlsx"
 
-goal_df = pd.read_excel(goal_path)
-llm_predict_df = pd.read_csv(llm_path)
+goal_df = pd.read_csv(goal_path)
+llm_predict_df = pd.read_excel(llm_path)
 
 # Đảm bảo có cột đúng định dạng
 assert {"clause", "category"}.issubset(goal_df.columns), "goal.xlsx thiếu cột 'clause' hoặc 'category'"
@@ -112,10 +112,6 @@ trainer = Trainer(
 
 # ... (code trainer) ...
 trainer.train()
-
-# --- SỬA TRIỆT ĐỂ Ở ĐÂY ---
-print("--- Hoàn thành huấn luyện ---")
-print("Đang merge (trộn) LoRA weights vào base model...")
 
 # 1. Merge LoRA weights vào base model và unload adapter
 # Cần gọi .base_model vì trainer.model là một đối tượng PeftModel
