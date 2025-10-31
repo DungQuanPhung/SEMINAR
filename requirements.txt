@@ -1,8 +1,18 @@
-flask
-transformers
+# === Web App và Data I/O ===
+streamlit
+pandas
+openpyxl  # Để đọc file .xlsx
+
+# === Core NLP và Deep Learning ===
 torch
-tqdm
+transformers
 datasets
+scikit-learn
+
+# === Thư viện Tối ưu hóa và Fine-tuning LLM (QLoRA/PEFT) ===
 peft
+accelerate
 bitsandbytes
-jsonlines
+
+# === Khác ===
+tqdm
