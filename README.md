@@ -1,25 +1,77 @@
-# ABSA CLI Toolkit
+---
+title: ABSA Pipeline - Aspect-Based Sentiment Analysis
+emoji: 🔍
+colorFrom: blue
+colorTo: purple
+sdk: gradio
+sdk_version: 4.44.0
+app_file: app.py
+pinned: false
+license: mit
+hardware: t4-medium
+---
 
-Unified command-line interface for **Aspect-Based Sentiment Analysis (ABSA)** tasks.
+# ABSA Pipeline - Aspect-Based Sentiment Analysis
 
-## Features
+Unified system for **Aspect-Based Sentiment Analysis (ABSA)** with deployment on Hugging Face Spaces, Cloudflare Workers, and Cloudflare Pages.
 
-- **split-clause**: Split sentences into clauses and extract aspect terms (Qwen LLM)
-- **extract-category**: Classify clauses into aspect categories (RoBERTa)
-- **extract-polarity**: Detect sentiment polarity (DeBERTa)
-- **extract-opinion**: Extract opinion words from clauses (Qwen LLM)
-- **fine-tune-roberta**: Fine-tune RoBERTa with LoRA for category classification
-- **pipeline**: Run the full ABSA pipeline end-to-end
+## 🚀 Live Demo
 
-## Requirements
+Try the live demo on Hugging Face Spaces: [ABSA Pipeline](https://huggingface.co/spaces/YOUR_USERNAME/absa-pipeline)
+
+## 🎯 Features
+
+This system provides a complete ABSA pipeline with three deployment options:
+
+### Pipeline Components
+- **Clause Splitting**: Split sentences into meaningful clauses (Qwen LLM)
+- **Term Extraction**: Extract aspect terms being discussed (Qwen LLM)
+- **Opinion Extraction**: Extract opinion words (Qwen LLM)
+- **Category Classification**: Classify into aspect categories (RoBERTa with LoRA)
+- **Polarity Detection**: Detect sentiment polarity (DeBERTa)
+
+### Deployment Architecture
+1. **Hugging Face Spaces**: Backend ML models with GPU (T4 Medium)
+2. **Cloudflare Workers**: API Gateway with caching and rate limiting
+3. **Cloudflare Pages**: React frontend with global CDN
+
+## 🏗️ Architecture
+
+```
+User Browser
+    ↓
+Cloudflare CDN (Pages) - Frontend React
+    ↓
+Cloudflare Workers - API Gateway + Caching
+    ↓
+Hugging Face Spaces - Backend ML Models (GPU)
+```
+
+## 📋 Requirements
+
+### For Hugging Face Spaces Deployment
 
 Install dependencies:
 
 ```bash
-pip install torch transformers peft datasets scikit-learn pandas tqdm
+pip install -r requirements.txt
 ```
 
-**Note**: `bitsandbytes` is required for 4-bit quantization. On Windows, you may need:
+**Required files**:
+- `app.py`: Main Gradio application
+- `requirements.txt`: Python dependencies
+- `roberta_lora_goal/`: Fine-tuned RoBERTa model directory
+- All `*_lib.py` files: Pipeline worker functions
+
+**Hardware**: T4 Medium GPU recommended for optimal performance
+
+### For Local Development
+
+```bash
+pip install torch transformers peft datasets scikit-learn pandas tqdm gradio
+```
+
+**Note**: `bitsandbytes` is required for 4-bit quantization. On Windows:
 ```bash
 pip install bitsandbytes-windows
 ```
@@ -137,11 +189,106 @@ python app.py fine-tune-roberta --goal goal.csv --llm test.csv --out ./my_model 
 python app.py pipeline -i new_sentences.txt -o results.csv --format csv --category-model ./my_model
 ```
 
-## License
+## 🚀 Deployment
 
-MIT License (adjust as needed)
+### Deploy to Hugging Face Spaces
 
-## Contributors
+1. Create a new Space on [Hugging Face](https://huggingface.co/new-space)
+2. Choose "Gradio" as the SDK
+3. Select "T4 Medium" hardware
+4. Clone this repository and push to your Space:
 
-- Your Name / Team
-- Built with ❤️ for ABSA research
+```bash
+git clone https://huggingface.co/spaces/YOUR_USERNAME/absa-pipeline
+cd absa-pipeline
+git remote add github https://github.com/YOUR_REPO/SEMINAR.git
+git pull github main
+git push origin main
+```
+
+5. Your Space will automatically build and deploy!
+
+### API Endpoint
+
+Once deployed, your Space exposes an API endpoint:
+
+```python
+import requests
+
+API_URL = "https://YOUR_USERNAME-absa-pipeline.hf.space/api/predict"
+
+response = requests.post(API_URL, json={
+    "data": ["The food was great and the staff was friendly."]
+})
+
+results = response.json()
+print(results)
+```
+
+### Deploy Frontend to Cloudflare Pages
+
+See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed instructions on deploying the complete system with Cloudflare Workers and Pages.
+
+## 📚 API Documentation
+
+### Health Check
+
+```
+GET /
+```
+
+Returns health status of the models.
+
+### Analyze Review
+
+```
+POST /api/predict
+```
+
+**Request Body**:
+```json
+{
+  "data": ["Your review text here"]
+}
+```
+
+**Response**:
+```json
+{
+  "data": [
+    {
+      "clause": "The food was great",
+      "term": "food",
+      "opinion": "great",
+      "category": "Amenity",
+      "polarity": "Positive",
+      "polarity_score": 0.9876,
+      "sentence_original": "The food was great..."
+    }
+  ]
+}
+```
+
+## 🔧 Troubleshooting
+
+### Hugging Face Spaces
+
+**Issue: Out of memory**
+- Use T4 Medium or larger GPU
+- Reduce batch processing in code
+
+**Issue: Model files not found**
+- Ensure `roberta_lora_goal/` directory is pushed to Space
+- Check file sizes don't exceed limits
+
+**Issue: Slow startup**
+- First load takes 2-3 minutes to download models
+- Subsequent requests are cached and fast
+
+## 📄 License
+
+MIT License
+
+## 👥 Contributors
+
+Built with ❤️ for ABSA research and NLP applications
