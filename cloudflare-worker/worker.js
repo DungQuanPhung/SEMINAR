@@ -220,19 +220,31 @@ async function handleHealth(request) {
 
 /**
  * Rate limiting check
+ * TODO: Implement with Cloudflare KV or Durable Objects in production
+ * 
+ * To implement rate limiting:
+ * 1. Use KV namespace to track request counts per IP
+ * 2. Example: const count = await env.RATE_LIMIT.get(key)
+ * 3. Increment and check against RATE_LIMIT_PER_MINUTE
+ * 4. Return 429 response if exceeded
  */
 async function checkRateLimit(request) {
   // Get client IP
   const ip = request.headers.get('CF-Connecting-IP') || 'unknown';
   const key = `ratelimit:${ip}`;
   
-  // Note: In production, use Workers KV or Durable Objects
-  // This is a simplified version
-  return null; // Implement with KV store in production
+  // Placeholder - implement with KV in production
+  return null;
 }
 
 /**
  * Cache management
+ * TODO: Implement with Cloudflare KV or Cache API in production
+ * 
+ * To implement caching:
+ * 1. Create KV namespace: wrangler kv:namespace create CACHE
+ * 2. Add to wrangler.toml: [[kv_namespaces]] binding = "CACHE" id = "..."
+ * 3. Replace implementations below with: env.CACHE.get(key) and env.CACHE.put(key, value, {expirationTtl: CACHE_TTL})
  */
 async function generateCacheKey(sentence) {
   const encoder = new TextEncoder();
@@ -243,14 +255,14 @@ async function generateCacheKey(sentence) {
 }
 
 async function getFromCache(key) {
-  // Note: Implement with Cache API or KV
-  // This is a placeholder for the actual implementation
+  // Placeholder - implement with KV in production
+  // Example: return await env.CACHE.get(key);
   return null;
 }
 
 async function putToCache(key, value) {
-  // Note: Implement with Cache API or KV
-  // Cache for CACHE_TTL seconds
+  // Placeholder - implement with KV in production
+  // Example: await env.CACHE.put(key, value, {expirationTtl: CACHE_TTL});
 }
 
 /**

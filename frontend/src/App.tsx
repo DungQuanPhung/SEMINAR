@@ -1,8 +1,12 @@
 import { useState } from 'react';
 import './App.css';
 
-// API endpoint - Update this with your Cloudflare Worker URL
-const API_ENDPOINT = import.meta.env.VITE_API_ENDPOINT || 'https://absa-pipeline-api.YOUR_SUBDOMAIN.workers.dev/api/analyze';
+// API endpoint - Must be set via environment variable
+const API_ENDPOINT = import.meta.env.VITE_API_ENDPOINT;
+
+if (!API_ENDPOINT) {
+  console.error('VITE_API_ENDPOINT environment variable is not set');
+}
 
 interface AnalysisResult {
   clause: string;
@@ -61,7 +65,11 @@ function App() {
       const data: ApiResponse = await response.json();
       
       if (data.success && data.data) {
-        setResults(Array.isArray(data.data[0]) ? data.data[0] : data.data);
+        // Handle both array and nested array responses
+        const results = Array.isArray(data.data) && data.data.length > 0 && Array.isArray(data.data[0]) 
+          ? data.data[0] 
+          : data.data;
+        setResults(Array.isArray(results) ? results : []);
       } else {
         throw new Error('Invalid response format from API');
       }
