@@ -1,0 +1,44 @@
+# Cloudflare Workers Configuration
+# Documentation: https://developers.cloudflare.com/workers/
+
+name = "absa-pipeline-api"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+workers_dev = true
+
+# Account details (fill in your own)
+# account_id = "your-account-id"
+# zone_id = "your-zone-id"
+
+[env.production]
+name = "absa-pipeline-api"
+routes = [
+  { pattern = "api.yourdomain.com/*", zone_name = "yourdomain.com" }
+]
+
+[env.staging]
+name = "absa-pipeline-api-staging"
+
+# KV Namespaces for caching (optional but recommended)
+# Uncomment and configure after creating KV namespaces
+# [[kv_namespaces]]
+# binding = "CACHE"
+# id = "your-kv-namespace-id"
+# preview_id = "your-kv-namespace-preview-id"
+
+# Environment variables
+[vars]
+HF_SPACE_URL = "https://YOUR_USERNAME-absa-pipeline.hf.space"
+CACHE_TTL = "3600"
+RATE_LIMIT_PER_MINUTE = "100"
+
+# Secrets (set via: wrangler secret put SECRET_NAME)
+# - API_KEY (if needed for authentication)
+# - HF_TOKEN (if Space is private)
+
+# Limits and triggers
+[triggers]
+crons = []
+
+[build]
+command = ""

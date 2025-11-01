@@ -1,18 +1,18 @@
-# === Web App và Data I/O ===
-streamlit
+# === Web App and Data I/O ===
+gradio>=4.0.0
 pandas
-openpyxl  # Để đọc file .xlsx
+openpyxl  # For reading .xlsx files
 
-# === Core NLP và Deep Learning ===
-torch
-transformers
+# === Core NLP and Deep Learning ===
+torch>=2.0.0
+transformers>=4.35.0
 datasets
 scikit-learn
 
-# === Thư viện Tối ưu hóa và Fine-tuning LLM (QLoRA/PEFT) ===
-peft
-accelerate
-bitsandbytes
+# === Optimization and Fine-tuning LLM Libraries (QLoRA/PEFT) ===
+peft>=0.7.0
+accelerate>=0.24.0
+bitsandbytes>=0.41.0
 
-# === Khác ===
+# === Other ===
 tqdm

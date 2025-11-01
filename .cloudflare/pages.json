@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/cloudflare/wrangler/main/schemas/pages.schema.json",
+  "build": {
+    "command": "npm install && npm run build",
+    "cwd": "frontend",
+    "destination": "frontend/dist"
+  },
+  "preview": {
+    "command": "npm run preview",
+    "cwd": "frontend"
+  },
+  "compatibility_date": "2024-01-01",
+  "compatibility_flags": [],
+  "deployment": {
+    "branch": "main",
+    "production_branch": "main"
+  },
+  "env_vars": {
+    "VITE_API_ENDPOINT": {
+      "type": "plain_text",
+      "value": "https://absa-pipeline-api.YOUR_SUBDOMAIN.workers.dev/api/analyze"
+    }
+  },
+  "routes": [
+    {
+      "pattern": "/*",
+      "custom_headers": {
+        "Cache-Control": "public, max-age=3600, s-maxage=86400",
+        "X-Robots-Tag": "index, follow"
+      }
+    },
+    {
+      "pattern": "/assets/*",
+      "custom_headers": {
+        "Cache-Control": "public, max-age=31536000, immutable"
+      }
+    }
+  ],
+  "redirects": []
+}
