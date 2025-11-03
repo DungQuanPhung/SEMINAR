@@ -12,9 +12,14 @@ def extract_categories(
 ) -> List[Dict[str, Any]]:
     """
     Hàm chính: Dự đoán Category (phân loại) cho một danh sách các mệnh đề (clauses).
-   
     """
     
+    if model_cat is None or tokenizer_cat is None:
+        print("Lỗi: Mô hình Category chưa được tải.")
+        for c in clauses:
+            c["category"] = "Error (Model not loaded)"
+        return clauses
+
     if model_cat.training:
         model_cat.eval()
     model_cat.to(device)
@@ -53,7 +58,6 @@ def extract_categories(
 def get_predicted_categories(clauses: List[Dict[str, Any]]) -> List[str]:
     """
     Hàm phụ: Trả về danh sách các Category đã được dự đoán.
-   
     """
     categories = []
     for c in clauses:

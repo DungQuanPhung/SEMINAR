@@ -1,12 +1,18 @@
-from pyexpat import model
 import re
+import torch
+import gc
 from typing import List, Dict, Any, Callable
 
 def chat_llm(model: Any, tokenizer: Any, messages: List[Dict[str, str]], max_new_tokens: int = 100) -> str:
     """
     Hàm chat cơ bản. Nhận model và tokenizer làm tham số.
-   
+    Tối ưu hóa RAM: xóa input tensors sau khi generate.
     """
+    # Xóa cache trước khi bắt đầu để đảm bảo có đủ bộ nhớ
+    if torch.cuda.is_available():
+        torch.cuda.empty_cache()
+    gc.collect()
+    
     inputs = tokenizer.apply_chat_template(
         messages,
         add_generation_prompt=True,
@@ -15,15 +21,33 @@ def chat_llm(model: Any, tokenizer: Any, messages: List[Dict[str, str]], max_new
         return_tensors="pt",
     ).to(model.device)
 
-    outputs = model.generate(**inputs, max_new_tokens=max_new_tokens)
+    with torch.no_grad():
+        outputs = model.generate(
+            **inputs, 
+            max_new_tokens=max_new_tokens,
+            do_sample=False,  # Tối ưu hóa: không cần sampling
+            temperature=None,
+            # Thêm tùy chọn để giảm sử dụng bộ nhớ
+            use_cache=True,  # Sử dụng KV cache để tăng tốc
+            pad_token_id=tokenizer.pad_token_id or tokenizer.eos_token_id
+        )
+    
     # Giữ lại phần phản hồi mới sinh ra và loại bỏ special tokens để giảm nhiễu.
-    return tokenizer.decode(
+    response = tokenizer.decode(
         outputs[0][inputs["input_ids"].shape[-1]:],
         skip_special_tokens=True,
         clean_up_tokenization_spaces=True,
     ).strip()
+    
+    # Xóa tensors để giải phóng RAM
+    del inputs, outputs
+    gc.collect()
+    if torch.cuda.is_available():
+        torch.cuda.empty_cache()
+    
+    return response
 
-def run_split_and_term(sentence: str, chat_func: Callable, max_new_tokens: int = 300) -> List[Dict[str, Any]]:
+def run_split_and_term(sentence: str, chat_func: Callable, max_new_tokens: int = 200) -> List[Dict[str, Any]]:
     """
     Tách câu và trích xuất Term, sử dụng hàm chat_func được truyền vào.
    
@@ -100,15 +124,19 @@ def run_split_and_term(sentence: str, chat_func: Callable, max_new_tokens: int =
         if not line:
             continue
         if "| Term:" in line:
-            clause_text, term = line.split("| Term:")
-            clause_text = clause_text.replace("Clause:", "").strip()
-            term = term.strip()
+            # Chỉ tách lần xuất hiện đầu tiên để tránh ValueError khi có nhiều "| Term:"
+            parts = line.split("| Term:", 1)
+            clause_text = parts[0].replace("Clause:", "").strip()
+            term = parts[1].strip() if len(parts) > 1 else ""
+            # Làm sạch ký t��� đặc biệt nếu có
+            clause_text = clause_text.replace("<|im_end|>", "").strip()
+            term = term.replace("<|im_end|>", "").strip()
             if term == "":
                 term = last_term  # propagate term
             else:
                 last_term = term
         else:
-            clause_text = line
+            clause_text = line.replace("Clause:", "").replace("<|im_end|>", "").strip()
             term = last_term.replace("<|im_end|>", "").strip()
         result.append({"clause": clause_text, "term": term, "sentence_original": sentence})
 
