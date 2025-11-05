@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pandas
+numpy
+wordcloud
+matplotlib
+transformers
+torch
+scikit-learn
