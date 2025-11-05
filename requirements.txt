@@ -1,18 +1,11 @@
-# === Web App và Data I/O ===
 streamlit
-pandas
-openpyxl  # Để đọc file .xlsx
-
-# === Core NLP và Deep Learning ===
-torch
 transformers
-datasets
-scikit-learn
-
-# === Thư viện Tối ưu hóa và Fine-tuning LLM (QLoRA/PEFT) ===
-peft
-accelerate
-bitsandbytes
-
-# === Khác ===
+torch
 tqdm
+datasets
+peft
+bitsandbytes
+jsonlines
+pandas
+scikit-learn
+accelerate
